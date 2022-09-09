@@ -1,9 +1,10 @@
 import React from 'react'
+import "../style.css"
 
 function Header() {
   return (
     <>
-        <h1>Hei</h1>
+        <h1>Drikke kalkulator</h1>
     </>
   )
 }
