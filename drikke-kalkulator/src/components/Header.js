@@ -1,10 +1,10 @@
 import React from 'react'
 import "../style.css"
 
-function Header() {
+function Header(props) {
   return (
     <>
-        <h1>Drikke kalkulator</h1>
+        <h1>{props.name}</h1>
     </>
   )
 }
