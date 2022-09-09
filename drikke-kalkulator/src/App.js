@@ -6,6 +6,7 @@ function App() {
     <div className='main'>
       <Header name="Drikke kalkulator"/>
       <h1 className="">ygu</h1>
+      <h1>poiuawhdoiuawhdpiuadwpiuahwdpihwadiuhawiudhawpiudhiuwahdpiuwahd</h1>
     </div>
   );
 }
