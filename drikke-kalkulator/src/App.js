@@ -1,11 +1,16 @@
-import './style.css';
+import "./bootstrap/css/bootstrap.css"
+import "./style.css"
+import Navbar from "./components/Navbar.js"
 import Header from "./components/Header.js"
+import Info from "./components/Info.js"
 
 function App() {
   return (
-    <div className='main'>
-      <Header name="Drikke kalkulator"/>
-    </div>
+    <>
+      <Navbar />
+      <Header title="Drikke kalkulator" desc="Drikk deg drita"/>
+      <Info />
+    </>
   );
 }
 

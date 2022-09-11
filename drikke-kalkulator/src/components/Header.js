@@ -1,11 +1,12 @@
 import React from 'react'
-import "../style.css"
 
 function Header(props) {
   return (
-    <>
-        <h1>{props.name}</h1>
-    </>
+    <div className='container'>
+        <h1 className='display-4 mt-5'>{props.title}</h1>
+        <p>{props.desc}</p>
+        <hr />
+    </div>
   )
 }
 
