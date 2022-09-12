@@ -15,12 +15,19 @@ function Info() {
                 <div className='col-sm'>
                     <h1 className='display-6'>Promillekalkulator</h1>
                     <hr />
-                    <p>Skriv noe alex eller fred</p>
+                    <p>Ved bruk av kalkulasjoner og promilletsting på flere tusen mennesker kan vi måle
+                        ut ca hvor mye i prommile du vil få av en hvis mengde enheter. ved å opgi litt informasjon om deg selv kan du på fohånt få svar på
+                        hvor mye du kan drikke før du kommer opp til en ønsket promille.
+                    </p>
                 </div>
                 <div className='col-sm'>
                     <h1 className='display-6'>Priskalkulator</h1>
                     <hr />
-                    <p>Skriv noe alex eller fred</p>
+                    <p>Ved å sammenligne priser fra forskjellige butikker kan du enkelt 
+                        skrive inn mengden drikke du ønsker og få svar på hvor mye det vil koste.
+                        Vi jobber nå med å automatisere handlekurven din slik at du kan velge ønsket promille og ønsket drikkevare
+                        og dermed få handlekurven du trenger for å oppnå denne promillen.
+                    </p>
                 </div>
             </div>
         </div>
