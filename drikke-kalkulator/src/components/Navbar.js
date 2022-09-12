@@ -8,7 +8,7 @@ function Navbar() {
         <div className='container'>
             <div className='collapse navbar-collapse'>
                 <a href="#." className='navbar-brand'>
-                    <img src={Logo} alt="logo" width="200"/>
+                    <img src={Logo} alt="logo" width="300"/>
                 </a>
                 <ul className='navbar-nav ms-auto'>
                     <li className='nav-item'>
