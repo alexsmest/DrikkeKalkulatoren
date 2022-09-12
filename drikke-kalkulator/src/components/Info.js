@@ -4,7 +4,10 @@ function Info() {
   return (
     <div className='text-center'>
         <div className='container text-white bg-dark my-5 py-4 shadow'>
-            <h1 className='display-6'>Hva vi tilbyr</h1>
+            <h1 className='display-6'>Vårt konsept</h1>
+            <h4>Er du lei av å søke opp prisen på diverse varer? <br></br> Hos drikkekalkulatoren.no 
+                kan du enkelt beregne hvor mye drikke du burde kjøpe og hva det vil koste.
+            </h4>
         </div>
         <div className='container my-5'>
             <h1 className='display-6'>Promillekalkulator</h1>
