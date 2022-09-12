@@ -3,6 +3,7 @@ import "./style.css"
 import Navbar from "./components/Navbar.js"
 import Header from "./components/Header.js"
 import Info from "./components/Info.js"
+import Footer from "./components/Footer.js"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Info />
+      <Footer />
     </>
   );
 }
