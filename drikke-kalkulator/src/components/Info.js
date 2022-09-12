@@ -13,19 +13,14 @@ function Info() {
         <div className='container'>
             <div className='row g-5'>
                 <div className='col-sm'>
-                    <h1 className='display-6'>Hei</h1>
+                    <h1 className='display-6'>Promillekalkulator</h1>
                     <hr />
-                    <p>Ikke skriv noe her ennå</p>
+                    <p>Skriv noe alex eller fred</p>
                 </div>
                 <div className='col-sm'>
-                    <h1 className='display-6'>Hei</h1>
+                    <h1 className='display-6'>Priskalkulator</h1>
                     <hr />
-                    <p>Ikke skriv noe her ennå</p>
-                </div>
-                <div className='col-sm'>
-                    <h1 className='display-6'>Hei</h1>
-                    <hr />
-                    <p>Ikke skriv noe her ennå</p>
+                    <p>Skriv noe alex eller fred</p>
                 </div>
             </div>
         </div>

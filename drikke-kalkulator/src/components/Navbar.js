@@ -1,6 +1,6 @@
 import React from 'react'
 import "../bootstrap/css/bootstrap.css"
-import miniLogo from "../images/miniLogo.png"
+import Logo from "../images/logo.png"
 
 function Navbar() {
   return (
@@ -8,7 +8,7 @@ function Navbar() {
         <div className='container'>
             <div className='collapse navbar-collapse'>
                 <a href="#." className='navbar-brand'>
-                    <img src={miniLogo} alt="logo" width="50"/>
+                    <img src={Logo} alt="logo" width="200"/>
                 </a>
                 <ul className='navbar-nav ms-auto'>
                     <li className='nav-item'>
