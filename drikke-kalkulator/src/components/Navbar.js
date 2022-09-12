@@ -1,12 +1,15 @@
 import React from 'react'
 import "../bootstrap/css/bootstrap.css"
+import miniLogo from "../images/miniLogo.png"
 
 function Navbar() {
   return (
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow'>
         <div className='container'>
             <div className='collapse navbar-collapse'>
-                <a href="#." className='navbar-brand'>Logo</a>
+                <a href="#." className='navbar-brand'>
+                    <img src={miniLogo} alt="logo" width="50"/>
+                </a>
                 <ul className='navbar-nav ms-auto'>
                     <li className='nav-item'>
                         <a href="#." className='nav-link'>Brennevin</a>
