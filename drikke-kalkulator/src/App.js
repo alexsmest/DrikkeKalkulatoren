@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar.js"
 import Header from "./components/Header.js"
 import Info from "./components/Info.js"
 
+import {Routes, Route} from "react-router"
+
 function App() {
   return (
     <>
