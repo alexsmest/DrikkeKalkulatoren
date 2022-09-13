@@ -3,7 +3,7 @@ import React from 'react'
 import ProdukterNav from '../ProdukterNav'
 import ProductItem from './ProductItem'
 
-import Cidere from "../../JSON/Cider.json"
+import Cidere from "../../data/Cider.json"
 
 function Cider() {
   return (
