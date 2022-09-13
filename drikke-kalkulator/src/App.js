@@ -1,15 +1,17 @@
 import "./bootstrap/css/bootstrap.css"
 import "./style.css"
 
-import Navbar from "./components/Navbar.js"
-import Header from "./components/Header.js"
-import Info from "./components/Info.js"
-import Footer from "./components/Footer.js"
-import Brennevin from "./components/Brennevin.js"
-import Sterkvin from "./components/Sterkvin.js"
-import Vin from "./components/Vin.js"
-import Øl from "./components/Øl.js"
-import Cider from "./components/Cider.js"
+import Navbar from "./components/Navbar"
+import Header from "./components/Header"
+import Info from "./components/Info"
+import Footer from "./components/Footer"
+import Brennevin from "./components/Brennevin"
+import Sterkvin from "./components/Sterkvin"
+import Vin from "./components/Vin"
+import Øl from "./components/Øl"
+import Cider from "./components/Cider"
+import PromilleKalkulator from "./components/PromilleKalkulator"
+import PrisKalkulator from "./components/PrisKalkulator"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -36,6 +38,12 @@ function App() {
         </Route>
         <Route exact path="/Cider">
           <Cider />
+        </Route>
+        <Route exact path="/PromilleKalkulator">
+          <PromilleKalkulator />
+        </Route>
+        <Route exact path="/PromilleKalkulator">
+          <PrisKalkulator />
         </Route>
       </Switch>
       <Footer />
