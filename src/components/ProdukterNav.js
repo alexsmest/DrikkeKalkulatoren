@@ -16,8 +16,8 @@ function ProdukterNav() {
         <div className='container'>
             <div className='collapse navbar-collapse'>
                 <ul className='navbar-nav m-auto'>
-                    {navButton("Øl")}
                     {navButton("Cider")}
+                    {navButton("Øl")}
                     {navButton("Vin")}
                     {navButton("Brennevin")}
                     {navButton("Sterkvin")}

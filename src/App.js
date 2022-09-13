@@ -26,20 +26,20 @@ function App() {
           <Produkter />
           <Info />
         </Route>
-        <Route exact path="/Brennevin">
-          <Brennevin />
-        </Route>
-        <Route exact path="/Sterkvin">
-          <Sterkvin />
-        </Route>
-        <Route exact path="/Vin">
-          <Vin />
+        <Route exact path="/Cider">
+          <Cider />
         </Route>
         <Route exact path="/Øl">
           <Øl />
         </Route>
-        <Route exact path="/Cider">
-          <Cider />
+        <Route exact path="/Vin">
+          <Vin />
+        </Route>
+        <Route exact path="/Sterkvin">
+          <Sterkvin />
+        </Route>
+        <Route exact path="/Brennevin">
+          <Brennevin />
         </Route>
         <Route exact path="/Promillekalkulator">
           <Promillekalkulator />

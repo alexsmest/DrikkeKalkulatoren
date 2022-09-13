@@ -33,10 +33,16 @@ function Info() {
                     </p>
                 </div>
                 <div className='col-sm'>
-                    <h1 className='display-6'>Butikker som vi bruker</h1>
+                    <h1 className='display-6'>Butikker</h1>
                     <hr />
                     <p>
                         Disse butikkene ser vi prisene på:<br />
+                        <li>Rema 1000</li>
+                        <li>Meny</li>
+                        <li>Joker</li>
+                        <li>Kiwi</li>
+                        <li>Coop Extra</li>
+                        <li>Vinmonopolet</li>
                     </p>
                 </div>
             </div>
