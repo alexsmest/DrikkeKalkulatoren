@@ -10,8 +10,8 @@ import Sterkvin from "./components/Sterkvin"
 import Vin from "./components/Vin"
 import Øl from "./components/Øl"
 import Cider from "./components/Cider"
-import PromilleKalkulator from "./components/PromilleKalkulator"
-import PrisKalkulator from "./components/PrisKalkulator"
+import Promillekalkulator from "./components/Promillekalkulator"
+import Priskalkulator from "./components/Priskalkulator"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -40,10 +40,10 @@ function App() {
           <Cider />
         </Route>
         <Route exact path="/PromilleKalkulator">
-          <PromilleKalkulator />
+          <Promillekalkulator />
         </Route>
         <Route exact path="/PrisKalkulator">
-          <PrisKalkulator />
+          <Priskalkulator />
         </Route>
       </Switch>
       <Footer />

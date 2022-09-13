@@ -1,9 +1,11 @@
 import React from 'react'
 
-function PromilleKalkulator() {
+function Promillekalkulator() {
   return (
-    <div>PromilleKalkulator</div>
+    <div className='container mt-5'>
+        <h1 className='display-4 text-center'>Promillekalkulator</h1>
+    </div>
   )
 }
 
-export default PromilleKalkulator
+export default Promillekalkulator
