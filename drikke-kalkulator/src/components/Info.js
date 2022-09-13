@@ -35,7 +35,8 @@ function Info() {
                     <h1 className='display-6'>Butikker som vi bruker</h1>
                     <hr />
                     <p>
-                        Disse butikkene ser vi prisene på:
+                        Disse butikkene ser vi prisene på:<br />
+                        
                     </p>
                 </div>
             </div>
