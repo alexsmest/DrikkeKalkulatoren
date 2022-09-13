@@ -4,11 +4,11 @@ import Icon from "../images/logo/icon.png"
 
 function Hero() {
   return (
-    <div className='p-4 my-4 text-center'>
+    <div className='pt-4 pb-5 my-5 text-center border-bottom'>
         <img src={Icon} alt="" width={150} className="mb-4" />
         <h1 className='display-6 fw-bold'>DrikkeKalkulatoren</h1>
-        <p className='lead mb-5 pb-5'>Skriv noe her</p>
-        <hr />
+        <p className='lead mb-4'>Skriv noe her</p>
+        <a href="#" className='btn btn-primary mb-5'>Se mer</a>
     </div>
   )
 }
