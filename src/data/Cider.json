@@ -4,41 +4,47 @@
         "icon": "https://bilder.ngdata.no/7030019511733/kmh/large.jpg?fallback=404&foretrekk=bedark",
         "id": "GrevensPærecider",
         "price": "23",
-        "percent": "4.7"
+        "percent": "4.7",
+        "size": "0.5"
     },
     {
         "name": "Grevens Eple og bringebærcider",
         "icon": "https://bilder.ngdata.no/7030019537627/meny/medium.jpg",
         "id": "GrevensEpleOgBringebærcider",
         "price": "25",
-        "percent": "4.7"
+        "percent": "4.7",
+        "size": "0.5"
     },
     {
         "name": "Grevens Skogsbærcider",
         "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
         "id": "GrevensSkogsbærcider",
         "price": "25",
-        "percent": "4.7"
+        "percent": "4.7",
+        "size": "0.5"
     },
     {
         "name": "Grevens Pærecider",
         "icon": "https://bilder.ngdata.no/7030019511733/kmh/large.jpg?fallback=404&foretrekk=bedark",
         "id": "GrevensPærecider2",
         "price": "23",
-        "percent": "4.7"
+        "percent": "4.7",
+        "size": "0.5"
     },
     {
         "name": "Grevens Eple og bringebærcider",
         "icon": "https://bilder.ngdata.no/7030019537627/meny/medium.jpg",
         "id": "GrevensEpleOgBringebærcider2",
         "price": "25",
-        "percent": "4.7"
+        "percent": "4.7",
+        "size": "0.5"
     },
     {
         "name": "Grevens Skogsbærcider",
         "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
         "id": "GrevensSkogsbærcider2",
         "price": "25",
-        "percent": "4.7"
+        "percent": "4.7",
+        "size": "0.5"
     }
 ]

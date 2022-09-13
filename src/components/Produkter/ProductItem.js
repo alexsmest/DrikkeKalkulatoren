@@ -10,6 +10,7 @@ function ProductItem(props) {
         <div className='collapse' id={props.id}>
             <p className='mb-0 mt-2'>Pris: {props.price + "kr"}</p>
             <p className='mb-0'>Alkoholprosent: {props.percent + "%"}</p>
+            <p className='mb-0'>Innhold: {props.size + " liter"}</p>
         </div>
         </div>
         <br />
