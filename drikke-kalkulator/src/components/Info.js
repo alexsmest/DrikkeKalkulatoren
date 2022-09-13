@@ -31,6 +31,13 @@ function Info() {
                         og dermed få handlekurven du trenger for å oppnå denne promillen.
                     </p>
                 </div>
+                <div className='col-sm'>
+                    <h1 className='display-6'>Noe annet her</h1>
+                    <hr />
+                    <p>
+                        Kom på noe boys
+                    </p>
+                </div>
             </div>
         </div>
     </div>
