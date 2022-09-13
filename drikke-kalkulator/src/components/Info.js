@@ -32,10 +32,10 @@ function Info() {
                     </p>
                 </div>
                 <div className='col-sm'>
-                    <h1 className='display-6'>Noe annet her</h1>
+                    <h1 className='display-6'>Butikker som vi bruker</h1>
                     <hr />
                     <p>
-                        Kom på noe boys
+                        Disse butikkene ser vi prisene på:
                     </p>
                 </div>
             </div>
