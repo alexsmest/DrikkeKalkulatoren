@@ -1,6 +1,7 @@
 import React from 'react'
 import "../bootstrap/css/bootstrap.css"
 import Logo from "../images/logo.png"
+import SearchIcon from "../images/searchIcon.png"
 
 function Navbar() {
   return (
@@ -25,6 +26,11 @@ function Navbar() {
                     </li>
                     <li className='nav-item'>
                         <a href="#." className='nav-link'>Cider</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href="#." className='nav-link'>
+                            <img src={SearchIcon} alt="søk" width={25} />
+                        </a>
                     </li>
                 </ul>
             </div>
