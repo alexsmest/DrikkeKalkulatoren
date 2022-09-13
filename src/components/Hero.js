@@ -8,7 +8,7 @@ function Hero() {
         <img src={Icon} alt="" width={150} className="mb-4" />
         <h1 className='display-6 fw-bold'>DrikkeKalkulatoren</h1>
         <p className='lead mb-4'>Skriv noe her</p>
-        <a href="#" className='btn btn-primary mb-5'>Se mer</a>
+        <a href="#produkter" className='btn btn-primary mb-5'>Se mer</a>
     </div>
   )
 }
