@@ -22,8 +22,7 @@ function Header() {
           <Link to="/Sterkvin" className='btn btn-primary'>Se utvalg</Link>
         </div>
         <div className='col-lg border p-3'>
-          <img src={VinIcon} alt="" className='img-responsive' width={200} />
-          <img src={Icon} alt="" className='img-responsive' height={200} />
+          <img src={VinIcon} alt="" className='img-responsive' height={200} /> 
           <h1 className='display-6'>Vin</h1>
           <Link to="/Vin" className='btn btn-primary'>Se utvalg</Link>
         </div>
