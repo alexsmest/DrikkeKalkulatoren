@@ -26,9 +26,7 @@ function Cider() {
           <p>Sortert alfabetisk</p>
         </div>
         <div className='row'>
-          <button>
-
-          </button>
+          {Produkt("Grevens Pærecider", GrevensPærecider)}
         </div>
       </div>
     </>
