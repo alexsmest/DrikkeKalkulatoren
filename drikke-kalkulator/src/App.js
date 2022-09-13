@@ -42,7 +42,7 @@ function App() {
         <Route exact path="/PromilleKalkulator">
           <PromilleKalkulator />
         </Route>
-        <Route exact path="/PromilleKalkulator">
+        <Route exact path="/PrisKalkulator">
           <PrisKalkulator />
         </Route>
       </Switch>
