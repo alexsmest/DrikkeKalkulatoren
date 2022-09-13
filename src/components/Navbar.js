@@ -1,7 +1,6 @@
 import React from 'react'
 import "../bootstrap/css/bootstrap.css"
-import Logo from "../images/logo.png"
-import SearchIcon from "../images/searchIcon.png"
+import Logo from "../images/logo/logo.png"
 import { Link } from "react-router-dom"
 
 function navButton (name) {
@@ -14,7 +13,7 @@ function navButton (name) {
 
 function Navbar() {
   return (
-    <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow'>
+    <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-bottom border-primary'>
         <div className='container'>
             <div className='collapse navbar-collapse'>
                 <Link to="/" className='navbar-brand'>
@@ -26,11 +25,6 @@ function Navbar() {
                 </li>
                     {navButton("Promillekalkulator")}
                     {navButton("Priskalkulator")}
-                    <li className='nav-item'>
-                        <Link to="/" className='nav-link'>
-                            <img src={SearchIcon} alt="søk" width={25} />
-                        </Link>
-                    </li>
                 </ul>
             </div>
         </div>

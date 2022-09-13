@@ -3,13 +3,14 @@ import "./style.css"
 
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
+import Produkter from "./components/Produkter"
 import Info from "./components/Info"
 import Footer from "./components/Footer"
-import Brennevin from "./components/Brennevin"
-import Sterkvin from "./components/Sterkvin"
-import Vin from "./components/Vin"
-import Øl from "./components/Øl"
-import Cider from "./components/Cider"
+import Brennevin from "./components/Produkter/Brennevin"
+import Sterkvin from "./components/Produkter/Sterkvin"
+import Vin from "./components/Produkter/Vin"
+import Øl from "./components/Produkter/Øl"
+import Cider from "./components/Produkter/Cider"
 import Promillekalkulator from "./components/Promillekalkulator"
 import Priskalkulator from "./components/Priskalkulator"
 
@@ -22,6 +23,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Header />
+          <Produkter />
           <Info />
         </Route>
         <Route exact path="/Brennevin">
