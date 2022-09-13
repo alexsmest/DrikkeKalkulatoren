@@ -7,7 +7,10 @@ function Cider() {
     <>
       <ProdukterNav />
       <div className='container mt-5'>
-        <h1 className='display-4 text-center'>Utvalg av cider</h1>
+        <div className='text-center'>
+          <h1 className='display-4'>Utvalg av cider</h1>
+          <p>Sortert alfabetisk</p>
+        </div>
       </div>
     </>
   )

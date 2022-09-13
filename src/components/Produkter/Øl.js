@@ -1,10 +1,18 @@
 import React from 'react'
 
+import ProdukterNav from '../ProdukterNav'
+
 function Øl() {
   return (
-    <div className='container mt-5'>
-        <h1 className='display-4 text-center'>Utvalg av øl</h1>
-    </div>
+    <>
+      <ProdukterNav />
+      <div className='container mt-5'>
+        <div className='text-center'>
+          <h1 className='display-4'>Utvalg av øl</h1>
+          <p>Sortert alfabetisk</p>
+        </div>
+      </div>
+    </>
   )
 }
 

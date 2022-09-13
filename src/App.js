@@ -2,7 +2,7 @@ import "./bootstrap/css/bootstrap.css"
 import "./style.css"
 
 import Navbar from "./components/Navbar"
-import Header from "./components/Header"
+import Hero from "./components/Hero"
 import Produkter from "./components/Produkter"
 import Info from "./components/Info"
 import Footer from "./components/Footer"
@@ -22,7 +22,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/">
-          <Header />
+          <Hero />
           <Produkter />
           <Info />
         </Route>
@@ -48,7 +48,7 @@ function App() {
           <Priskalkulator />
         </Route>
       </Switch>
-      <Footer />
+    <Footer />
     </Router>
   );
 }
