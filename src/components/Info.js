@@ -36,7 +36,6 @@ function Info() {
                     <hr />
                     <p>
                         Disse butikkene ser vi prisene på:<br />
-                        
                     </p>
                 </div>
             </div>
