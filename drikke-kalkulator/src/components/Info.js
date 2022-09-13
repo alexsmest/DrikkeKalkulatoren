@@ -16,8 +16,8 @@ function Info() {
                     <h1 className='display-6'>Promillekalkulator</h1>
                     <hr />
                     <p>
-                        Ved bruk av kalkulasjoner og promilletsting på flere tusen mennesker kan vi måle
-                        ut ca hvor mye i prommile du vil få av en hvis mengde enheter. ved å opgi litt informasjon om deg selv kan du på fohånt få svar på
+                        Ved bruk av kalkulasjoner og promilletesting på flere tusen mennesker kan vi måle
+                        ut ca hvor mye i promille du vil få av en hvis mengde enheter. ved å oppgi litt informasjon om deg selv kan du på forhånd få svar på
                         hvor mye du kan drikke før du kommer opp til en ønsket promille.
                     </p>
                 </div>
