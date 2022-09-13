@@ -3,6 +3,9 @@ import { Link } from "react-router-dom"
 import Icon from "../images/flaske.png"
 import ØlIcon from "../images/large-removebg-preview.png"
 import VinIcon from "../images/vinm.png"
+import SterkVin from "../images/cockburn.png"
+import BrennevinIcon from "../images/brennevin.png"
+import CiderIcon from "../images/cider.png"
 
 function Header() {
   return (
@@ -12,12 +15,12 @@ function Header() {
       <p>Drikk deg dritings</p>
       <div className='row text-center mt-5'>
         <div className='col-lg border p-3'>
-          <img src={Icon} alt="" className='img-responsive' height={200} />
+          <img src={BrennevinIcon} alt="" className='img-responsive' height={200} />
           <h1 className='display-6'>Brennevin</h1>
           <Link to="/Brennevin" className='btn btn-primary'>Se utvalg</Link>
         </div>
         <div className='col-lg border p-3'>
-        <img src={Icon} alt="" className='img-responsive' height={200} />
+        <img src={SterkVin} alt="" className='img-responsive' height={200} />
           <h1 className='display-6'>Sterkvin</h1>
           <Link to="/Sterkvin" className='btn btn-primary'>Se utvalg</Link>
         </div>
@@ -32,7 +35,7 @@ function Header() {
           <Link to="/Øl" className='btn btn-primary'>Se utvalg</Link>
         </div>
         <div className='col-lg border p-3'>
-          <img src={Icon} alt="" className='img-responsive' height={200} />
+          <img src={CiderIcon} alt="" className='img-responsive' height={200} />
           <h1 className='display-6'>Cider</h1>
           <Link to="/Cider" className='btn btn-primary'>Se utvalg</Link>
         </div>
