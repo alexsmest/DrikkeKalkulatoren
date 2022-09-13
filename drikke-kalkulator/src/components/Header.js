@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Icon from "../images/flaske.png"
-import ØlIcon from "../images/large-removebg-preview.png"
+import ØlIcon from "../images/tuborg.png"
 import VinIcon from "../images/vinm.png"
 import SterkVin from "../images/cockburn.png"
 import BrennevinIcon from "../images/brennevin.png"
