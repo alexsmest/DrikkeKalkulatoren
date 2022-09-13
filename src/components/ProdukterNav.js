@@ -14,7 +14,7 @@ function ProdukterNav() {
   return (
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-primary'>
         <div className='container'>
-            <div className='collapse navbar-collapse'>
+            <div className='collapse navbar-collapse' id="navbarContent">
                 <ul className='navbar-nav m-auto'>
                     {navButton("Cider")}
                     {navButton("Øl")}
