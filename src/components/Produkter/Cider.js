@@ -3,8 +3,6 @@ import React from 'react'
 import ProdukterNav from '../ProdukterNav'
 import ProductItem from './ProductItem'
 
-import GrevensPæreciderLogo from "../../images/display/cider.png"
-
 import Cidere from "../../JSON/Cider.json"
 
 function Cider() {
