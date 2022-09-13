@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Icon from "../images/flaske.png"
+import ØlIcon from "../images/large.jpg"
 
 function Header() {
   return (
@@ -25,7 +26,7 @@ function Header() {
           <Link to="/Vin" className='btn btn-primary'>Se mer</Link>
         </div>
         <div className='col-lg border p-3'>
-          <img src={Icon} alt="" className='img-responsive' width={200} />
+          <img src={ØlIcon} alt="" className='img-responsive' width={200} />
           <h1 className='display-6'>Øl</h1>
           <Link to="/Øl" className='btn btn-primary'>Se mer</Link>
         </div>
