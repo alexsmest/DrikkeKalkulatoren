@@ -17,15 +17,17 @@ function Navbar() {
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow'>
         <div className='container'>
             <div className='collapse navbar-collapse'>
-                <Link to="/Hjem" className='navbar-brand'>
+                <Link to="/" className='navbar-brand'>
                     <img src={Logo} alt="logo" width="300"/>
                 </Link>
                 <ul className='navbar-nav ms-auto'>
-                    {navButton("Hjem")}
+                <li className='nav-item'>
+                    <Link className='nav-link' to="/">Hjem</Link>
+                </li>
                     {navButton("Promillekalkulator")}
                     {navButton("Priskalkulator")}
                     <li className='nav-item'>
-                        <Link to="/Hjem" className='nav-link'>
+                        <Link to="/" className='nav-link'>
                             <img src={SearchIcon} alt="søk" width={25} />
                         </Link>
                     </li>

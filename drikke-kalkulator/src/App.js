@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/Hjem">
+        <Route exact path="/">
           <Header />
           <Info />
         </Route>
