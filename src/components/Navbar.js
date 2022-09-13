@@ -1,6 +1,9 @@
 import React from 'react'
 import "../bootstrap/css/bootstrap.css"
+
 import Logo from "../images/logo/logo.png"
+import Icon from "../images/logo/icon.png"
+
 import { Link } from "react-router-dom"
 
 function navButton (name) {
@@ -16,10 +19,10 @@ function Navbar() {
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-bottom border-primary'>
         <div className='container'>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                <span class="navbar-toggler-icon"></span>
+                <img src={Icon} alt="" width={50} />
             </button>
             <div className='collapse navbar-collapse' id="navbarContent">
-                <Link to="/" className='navbar-brand'>
+                <Link to="/" className='navbar-brand d-none d-sm-block'>
                     <img src={Logo} alt="logo" width="300"/>
                 </Link>
                 <ul className='navbar-nav ms-auto'>
