@@ -39,10 +39,10 @@ function App() {
         <Route exact path="/Cider">
           <Cider />
         </Route>
-        <Route exact path="/PromilleKalkulator">
+        <Route exact path="/Promillekalkulator">
           <Promillekalkulator />
         </Route>
-        <Route exact path="/PrisKalkulator">
+        <Route exact path="/Priskalkulator">
           <Priskalkulator />
         </Route>
       </Switch>

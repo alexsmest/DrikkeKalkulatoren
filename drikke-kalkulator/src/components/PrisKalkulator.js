@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PrisKalkulator() {
+function Priskalkulator() {
   return (
     <div className='container mt-5'>
         <h1 className='display-4 text-center'>Priskalkulator</h1>
@@ -8,4 +8,4 @@ function PrisKalkulator() {
   )
 }
 
-export default PrisKalkulator
+export default Priskalkulator

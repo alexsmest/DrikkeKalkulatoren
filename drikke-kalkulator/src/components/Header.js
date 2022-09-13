@@ -8,8 +8,8 @@ function Header() {
       <h1 className='display-4 mt-5'>DrikkeKalkulatoren</h1>
       <hr />
       <p>Drikk deg dritings</p>
-      <Link to="/PromilleKalkulator" className='btn btn-primary me-2'>Promillekalkulator</Link>
-      <Link to="/PrisKalkulator" className='btn btn-primary'>Priskalkulator</Link>
+      <Link to="/Promillekalkulator" className='btn btn-primary me-2'>Promillekalkulator</Link>
+      <Link to="/Priskalkulator" className='btn btn-primary'>Priskalkulator</Link>
     </div>
   )
 }
