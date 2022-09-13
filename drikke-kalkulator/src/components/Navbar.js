@@ -4,6 +4,14 @@ import Logo from "../images/logo.png"
 import SearchIcon from "../images/searchIcon.png"
 import { Link } from "react-router-dom"
 
+function navButton (name) {
+    return (
+        <li className='nav-item'>
+            <Link className='nav-link' to={"/" + name}>{name}</Link>
+        </li>
+    )
+}
+
 function Navbar() {
   return (
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow'>
@@ -13,21 +21,11 @@ function Navbar() {
                     <img src={Logo} alt="logo" width="300"/>
                 </Link>
                 <ul className='navbar-nav ms-auto'>
-                    <li className='nav-item'>
-                        <Link className='nav-link' to="/Brennevin">Brennevin</Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link className='nav-link' to="/Sterkvin">Sterkvin</Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link className='nav-link' to="/Vin">Vin</Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link className='nav-link' to="/Øl">Øl</Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link className='nav-link' to="/Cider">Cider</Link>
-                    </li>
+                    {navButton("Brennevin")}
+                    {navButton("Sterkvin")}
+                    {navButton("Vin")}
+                    {navButton("Øl")}
+                    {navButton("Cider")}
                     <li className='nav-item'>
                         <Link to="/" className='nav-link'>
                             <img src={SearchIcon} alt="søk" width={25} />
