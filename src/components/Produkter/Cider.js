@@ -11,7 +11,7 @@ function Cider() {
       <ProdukterNav />
       <div className='container mt-5'>
         <div className='text-center mb-5'>
-          <h1 className='display-4'>Utvalg av cider</h1>
+          <h1 className='display-4'>Legg til cidere</h1>
           <p>Sortert basert på merke</p>
         </div>
         <div className='row'>
