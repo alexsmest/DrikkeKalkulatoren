@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import Icon from "../images/flaske.png"
-import ØlIcon from "../images/large.jpg"
+import ØlIcon from "../images/large-removebg-preview.png"
 
 function Header() {
   return (
