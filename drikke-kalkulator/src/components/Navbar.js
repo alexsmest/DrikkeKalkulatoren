@@ -2,30 +2,31 @@ import React from 'react'
 import "../bootstrap/css/bootstrap.css"
 import Logo from "../images/logo.png"
 import SearchIcon from "../images/searchIcon.png"
+import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow'>
         <div className='container'>
             <div className='collapse navbar-collapse'>
-                <a href="#." className='navbar-brand'>
+                <Link to="/" className='navbar-brand'>
                     <img src={Logo} alt="logo" width="300"/>
-                </a>
+                </Link>
                 <ul className='navbar-nav ms-auto'>
                     <li className='nav-item'>
-                        <a href="#." className='nav-link'>Brennevin</a>
+                        <Link className='nav-link' to="/Brennevin">Brennevin</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href="#." className='nav-link'>Sterkvin</a>
+                        <Link className='nav-link' to="/Sterkvin">Sterkvin</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href="#." className='nav-link'>Vin</a>
+                        <Link className='nav-link' to="/Vin">Vin</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href="#." className='nav-link'>Øl</a>
+                        <Link className='nav-link' to="/Øl">Øl</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href="#." className='nav-link'>Cider</a>
+                        <Link className='nav-link' to="/Cider">Cider</Link>
                     </li>
                     <li className='nav-item'>
                         <a href="#." className='nav-link'>
