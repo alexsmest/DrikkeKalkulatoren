@@ -12,7 +12,7 @@ function Cider() {
       <div className='container mt-5'>
         <div className='text-center mb-5'>
           <h1 className='display-4'>Utvalg av cider</h1>
-          <p>Sortert alfabetisk</p>
+          <p>Sortert basert på merke</p>
         </div>
         <div className='row'>
           {
