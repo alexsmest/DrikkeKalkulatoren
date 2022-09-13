@@ -29,9 +29,9 @@ function Navbar() {
                         <Link className='nav-link' to="/Cider">Cider</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href="#." className='nav-link'>
+                        <Link to="/" className='nav-link'>
                             <img src={SearchIcon} alt="søk" width={25} />
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
