@@ -15,7 +15,10 @@ function Navbar() {
   return (
     <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-bottom border-primary'>
         <div className='container'>
-            <div className='collapse navbar-collapse'>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div className='collapse navbar-collapse' id="navbarSupportedContent">
                 <Link to="/" className='navbar-brand'>
                     <img src={Logo} alt="logo" width="300"/>
                 </Link>
