@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Crush",
+        "type": "Pærecider",
+        "icon": "https://bilder.ngdata.no/7030019511733/kmh/large.jpg?fallback=404&foretrekk=bedark",
+        "uid": "a",
+        "price": "23",
+        "percent": "4.7",
+        "size": "0.5"
+    },
+    {
+        "name": "Crush",
+        "type": "Eple og bringebærcider",
+        "icon": "https://bilder.ngdata.no/7030019537627/meny/medium.jpg",
+        "uid": "b",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    },
+    {
+        "name": "Crush",
+        "type": "Skogsbærcider",
+        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "uid": "c",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    }
+]
