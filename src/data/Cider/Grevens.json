@@ -21,7 +21,35 @@
         "name": "Grevens",
         "type": "Skogsbærcider",
         "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
-        "uid": "GrevensSkogsbærcider",
+        "uid": "GrevensSkogsbærcider2",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    },
+    {
+        "name": "Grevens",
+        "type": "Eple og bringebærcider",
+        "icon": "https://bilder.ngdata.no/7030019537627/meny/medium.jpg",
+        "uid": "GrevensEpleOgBringebærcider2",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    },
+    {
+        "name": "Grevens",
+        "type": "Skogsbærcider",
+        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "uid": "GrevensSkogsbærcider2",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    }
+    ,
+    {
+        "name": "Grevens",
+        "type": "Skogsbærcider",
+        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "uid": "GrevensSkogsbærcider22",
         "price": "25",
         "percent": "4.7",
         "size": "0.5"
