@@ -1,9 +1,10 @@
 import React from 'react'
 
 import ProdukterNav from '../ProdukterNav'
-import ProductItem from './ProductItem'
+import Product from '../Product'
 
-import Øl_ from "../../data/Øl.json"
+import Carlsberg from "../../data/Øl/Calsberg.json"
+import Aass from "../../data/Øl/Aass.json"
 
 function Øl() {
   return (
@@ -15,11 +16,8 @@ function Øl() {
           <p>Sortert basert på merke</p>
         </div>
         <div className='row'>
-          {
-            Øl_.map((x, i) => {
-              return <ProductItem name={Øl_[i].name} icon={Øl_[i].icon} id={Øl_[i].id} price={Øl_[i].price} percent={Øl_[i].percent} size={Øl_[i].size} />
-            })
-          }
+          <Product product={Carlsberg} id="carlsberg"/>
+          <Product product={Aass} id="aass"/>
         </div>
       </div>
     </>

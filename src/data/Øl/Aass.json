@@ -47,7 +47,7 @@
     {
         "name": "Aass",
         "type": "Ankerpils",
-        "icon": "https://raw.githubusercontent.com/olemorten/DrikkeKalkulatoren/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Ankerpils-033l--removebg-preview.png?token=GHSAT0AAAAAABYSQ6JZ7P5EQEKZEVF5FNP6YZBVAHA",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Ankerpils-033l--removebg-preview.png?raw=true",
         "uid": "AassAnkerpils",
         "price": "25",
         "percent": "4.7",
