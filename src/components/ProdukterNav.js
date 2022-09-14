@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 function navButton(name) {
     return (
         <li className='nav-item'>
-            <Link className='nav-link' to={"/" + name}>{name}</Link>
+            <NavLink className='nav-link' to={"/" + name}>{name}</NavLink>
         </li>
     )
 }

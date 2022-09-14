@@ -23,7 +23,7 @@ function App() {
     <Router forceRefresh={true}>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Hjem">
           <Hero />
           <Produkter />
           <Info />

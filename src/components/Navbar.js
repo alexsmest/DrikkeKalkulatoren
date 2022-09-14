@@ -4,35 +4,29 @@ import "../style.css"
 import Logo from "../images/logo/logo.png"
 import Icon from "../images/logo/icon.png"
 
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 function navButton (name) {
-    const liStyle = {
-        color : 'blue',
-        fontSize:'23px'
-    }
     return (
         <li className='nav-item'>
-            <Link className="nav-link nav-link-2" to={"/" + name}>{name}</Link>
+            <NavLink className="nav-link" to={"/" + name}>{name}</NavLink>
         </li>
     )
 }
 
 function Navbar() {
   return (
-    <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-bottom border-warning'>
+    <div className='navbar navbar-expand-lg navbar-dark bg-dark shadow border-bottom border-warning'>
         <div className='container'>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
                 <img src={Icon} alt="" width={50} />
             </button>
             <div className='collapse navbar-collapse' id="navbarContent">
-                <Link to="/" className='navbar-brand d-none d-sm-block'>
+                <NavLink to="/Hjem" className='navbar-brand d-none d-lg-block'>
                     <img src={Logo} alt="logo" width="300"/>
-                </Link>
+                </NavLink>
                 <ul className='navbar-nav ms-auto'>
-                <li className='nav-item'>
-                    <Link className='nav-link' to="/">Hjem</Link>
-                </li>
+                    {navButton("Hjem")}
                     {navButton("Promillekalkulator")}
                     {navButton("Priskalkulator")}
                     {navButton("Kontakt")}
