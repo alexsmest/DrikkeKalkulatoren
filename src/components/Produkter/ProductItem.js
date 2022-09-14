@@ -6,7 +6,7 @@ function ProductItem(props) {
         <img src={props.icon} alt="" height={200} />
         <p className='fw-bold'>{props.name}</p>
         <p>{props.type}</p>
-        <button className='btn btn-warning me-2'>Legg til</button>
+        <button className='btn btn-warning'>Legg til</button>
         <p className='mb-0 mt-2'>Pris: {props.price + "kr"}</p>
         <p className='mb-0'>Alkoholprosent: {props.percent + "%"}</p>
         <p className='mb-0'>Innhold: {props.size + " liter"}</p>
