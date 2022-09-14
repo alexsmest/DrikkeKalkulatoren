@@ -16,7 +16,7 @@ function navButton (name) {
 
 function Navbar() {
   return (
-    <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-bottom border-primary'>
+    <div className='navbar navbar-expand-sm navbar-dark bg-dark shadow border-bottom border-warning'>
         <div className='container'>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
                 <img src={Icon} alt="" width={50} />
