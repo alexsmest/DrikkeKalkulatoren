@@ -3,6 +3,4 @@ DrikkeKalkulatoren, laget av Ole, Alexander, Frederik og Erik.
 !["Logo"](/src/images/logo/logo.png)
 
 Følgene packages må være installert:
-- npm i react
-- npm i react-router-dom@5
-- npm i bootstrap@5.2.1
+- npm i react react-router-dom@5 bootstrap@5.2.1
