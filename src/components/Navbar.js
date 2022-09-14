@@ -1,5 +1,5 @@
 import React from 'react'
-import "../bootstrap/css/bootstrap.css"
+import "bootstrap/dist/css/bootstrap.css"
 
 import Logo from "../images/logo/logo.png"
 import Icon from "../images/logo/icon.png"

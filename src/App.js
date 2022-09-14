@@ -1,6 +1,6 @@
-import "./bootstrap/css/bootstrap.css"
+import "bootstrap/dist/css/bootstrap.css"
 import "./style.css"
-import "./bootstrap/js/bootstrap"
+import "bootstrap/dist/js/bootstrap"
 
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
