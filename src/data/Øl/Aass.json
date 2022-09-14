@@ -3,27 +3,54 @@
         "name": "Aass",
         "type": "Pilsner",
         "icon": "https://bilder.ngdata.no/7030019511733/kmh/large.jpg?fallback=404&foretrekk=bedark",
-        "uid": "GrevensPærecider",
+        "uid": "AassPilsnerRegular",
         "price": "23",
         "percent": "4.7",
         "size": "0.5"
     },
     {
-        "name": "Grevens",
-        "type": "Eple og bringebærcider",
+        "name": "Aass",
+        "type": "Pilsner Small",
         "icon": "https://bilder.ngdata.no/7030019537627/meny/medium.jpg",
-        "uid": "GrevensEpleOgBringebærcider",
+        "uid": "AassPilsnerSmall",
+        "price": "20",
+        "percent": "4.7",
+        "size": "0.33"
+    },
+    {
+        "name": "Aass",
+        "type": "IPA",
+        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "uid": "AassPilsner",
         "price": "25",
         "percent": "4.7",
         "size": "0.5"
     },
     {
-        "name": "Grevens",
-        "type": "Skogsbærcider",
+        "name": "Aass",
+        "type": "Sommerøl",
         "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
-        "uid": "GrevensSkogsbærcider",
+        "uid": "AassSommerøl",
         "price": "25",
         "percent": "4.7",
         "size": "0.5"
+    },
+    {
+        "name": "Aass",
+        "type": "Fatøl",
+        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "uid": "AassFatøl",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    },
+    {
+        "name": "Aass",
+        "type": "Ankerpils",
+        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "uid": "AassAnkerpils",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.33"
     }
 ]
