@@ -7,12 +7,9 @@ function ProductItem(props) {
         <p className='fw-bold'>{props.name}</p>
         <p>{props.type}</p>
         <button className='btn btn-warning me-2'>Legg til</button>
-        <button className='btn btn-warning' data-bs-toggle="collapse" data-bs-target={"#" + props.uid}>Se detaljer</button>
-        <div className='collapse' id={props.uid}>
-            <p className='mb-0 mt-2'>Pris: {props.price + "kr"}</p>
-            <p className='mb-0'>Alkoholprosent: {props.percent + "%"}</p>
-            <p className='mb-0'>Innhold: {props.size + " liter"}</p>
-        </div>
+        <p className='mb-0 mt-2'>Pris: {props.price + "kr"}</p>
+        <p className='mb-0'>Alkoholprosent: {props.percent + "%"}</p>
+        <p className='mb-0'>Innhold: {props.size + " liter"}</p>
     </div>
   )
 }
