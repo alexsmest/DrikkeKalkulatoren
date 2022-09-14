@@ -7,7 +7,7 @@ function Hero() {
     <div className='pt-4 pb-5 my-5 text-center border-bottom'>
         <img src={Icon} alt="" width={150} className="mb-4" />
         <h1 className='display-6 fw-bold'>DrikkeKalkulatoren</h1>
-        <p className='lead mb-4'>Skriv noe her</p>
+        <p className='lead mb-4'>Den simple måte å ta riktig drikkevalg.</p>
         <a href="#produkter" className='btn btn-warning mb-5'>Sett i gang</a>
     </div>
   )
