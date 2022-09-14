@@ -2,7 +2,7 @@
     {
         "name": "Aass",
         "type": "Pilsner",
-        "icon": "https://bilder.ngdata.no/7030019511733/kmh/large.jpg?fallback=404&foretrekk=bedark",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Pilsner-05l-removebg-preview.png?raw=true",
         "uid": "AassPilsnerRegular",
         "price": "23",
         "percent": "4.7",
@@ -11,7 +11,7 @@
     {
         "name": "Aass",
         "type": "Pilsner Small",
-        "icon": "https://bilder.ngdata.no/7030019537627/meny/medium.jpg",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/aass_pilsner_033-removebg-preview.png?raw=true",
         "uid": "AassPilsnerSmall",
         "price": "20",
         "percent": "4.7",
@@ -20,7 +20,7 @@
     {
         "name": "Aass",
         "type": "IPA",
-        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/aass_ipa_05-removebg-preview.png?raw=true",
         "uid": "AassPilsner",
         "price": "25",
         "percent": "4.7",
@@ -29,7 +29,7 @@
     {
         "name": "Aass",
         "type": "Sommerøl",
-        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Sommer%C3%B8l-05--removebg-preview.png?raw=true",
         "uid": "AassSommerøl",
         "price": "25",
         "percent": "4.7",
@@ -38,7 +38,7 @@
     {
         "name": "Aass",
         "type": "Fatøl",
-        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Fat%C3%B8l-05l--removebg-preview.png?raw=true",
         "uid": "AassFatøl",
         "price": "25",
         "percent": "4.7",
@@ -47,10 +47,38 @@
     {
         "name": "Aass",
         "type": "Ankerpils",
-        "icon": "https://bilder.ngdata.no/7030019517568/kmh/medium.jpg",
+        "icon": "https://raw.githubusercontent.com/olemorten/DrikkeKalkulatoren/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Ankerpils-033l--removebg-preview.png?token=GHSAT0AAAAAABYSQ6JZ7P5EQEKZEVF5FNP6YZBVAHA",
         "uid": "AassAnkerpils",
         "price": "25",
         "percent": "4.7",
         "size": "0.33"
+    },
+    {
+        "name": "Aass",
+        "type": "Lite Vienna",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Lite-Vienna-lager-05--removebg-preview.png?raw=true",
+        "uid": "AassLiteVienna",
+        "price": "25",
+        "percent": "4.5",
+        "size": "0.5"
+    },
+    {
+        "name": "Aass",
+        "type": "Blanc (Fransk Hveteøl)",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass_Blanc_05L_-removebg-preview.png?raw=true",
+        "uid": "AassBlanc",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    },
+    {
+        "name": "Aass",
+        "type": "Juleøl",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/aass/Aass-Jule%C3%B8l-05l--removebg-preview.png?raw=true",
+        "uid": "AassJuleøl",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
     }
+
 ]
