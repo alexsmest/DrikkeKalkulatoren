@@ -16,13 +16,16 @@ import Promillekalkulator from "./components/Promillekalkulator"
 import Priskalkulator from "./components/Priskalkulator"
 import Kontakt from "./components/Kontakt"
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
 
 function App() {
   return (
     <Router forceRefresh={true}>
       <Navbar />
       <Switch>
+        <Route exact path ="/">
+          <Redirect to="/Hjem" />
+        </Route>
         <Route exact path="/Hjem">
           <Hero />
           <Produkter />
