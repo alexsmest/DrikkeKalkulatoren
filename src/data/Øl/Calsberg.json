@@ -1,7 +1,7 @@
 [
     {
-        "name": "Crush",
-        "type": "Pærecider",
+        "name": "Calsberg",
+        "type": "Pilsner",
         "icon": "https://bilder.ngdata.no/7311120236051/meny/medium.jpg",
         "uid": "a",
         "price": "23",
@@ -9,21 +9,21 @@
         "size": "0.5"
     },
     {
-        "name": "Crush",
-        "type": "Eple og bringebærcider",
+        "name": "Calsberg",
+        "type": "Pilsner Liten",
         "icon": "https://bilder.ngdata.no/7311120236075/meny/large.jpg",
         "uid": "b",
         "price": "25",
         "percent": "4.7",
-        "size": "0.5"
+        "size": "0.33"
     },
     {
-        "name": "Crush",
-        "type": "Skogsbærcider",
+        "name": "Calsberg",
+        "type": "Pilsner Glass",
         "icon": "https://bilder.ngdata.no/7311120236167/meny/large.jpg",
         "uid": "c",
         "price": "25",
         "percent": "4.7",
-        "size": "0.5"
+        "size": "0.33"
     }
 ]
