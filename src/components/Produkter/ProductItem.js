@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProductItem(props) {
   return (
-    <div className='col-lg-4 border text-center py-5'>
+    <div className='col-lg-4 border py-5'>
         <img src={props.icon} alt="" height={200} />
         <p className='fw-bold'>{props.name}</p>
         <p>{props.type}</p>
