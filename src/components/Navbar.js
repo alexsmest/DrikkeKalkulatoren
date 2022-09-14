@@ -35,7 +35,7 @@ function Navbar() {
                 </li>
                     {navButton("Promillekalkulator")}
                     {navButton("Priskalkulator")}
-                    {navButton("Kontakt oss")}
+                    {navButton("Kontakt")}
                 </ul>
             </div>
         </div>
