@@ -1,15 +1,19 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.css"
-
+import "../style.css"
 import Logo from "../images/logo/logo.png"
 import Icon from "../images/logo/icon.png"
 
 import { Link } from "react-router-dom"
 
 function navButton (name) {
+    const liStyle = {
+        color : 'blue',
+        fontSize:'23px'
+    }
     return (
         <li className='nav-item'>
-            <Link className='nav-link' to={"/" + name}>{name}</Link>
+            <Link className="nav-link nav-link-2" to={"/" + name}>{name}</Link>
         </li>
     )
 }
