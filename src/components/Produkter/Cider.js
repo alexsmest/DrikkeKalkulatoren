@@ -17,7 +17,7 @@ function Cider() {
         <div className='row'>
           {
             Cidere.map((x, i) => {
-              return <ProductItem name={Cidere[i].name} type={Cidere[i].type} icon={Cidere[i].icon} id={Cidere[i].id} price={Cidere[i].price} percent={Cidere[i].percent} size={Cidere[i].size} />
+              return <ProductItem name={Cidere[i].name} type={Cidere[i].type} icon={Cidere[i].icon} uid={Cidere[i].uid} price={Cidere[i].price} percent={Cidere[i].percent} size={Cidere[i].size} />
             })
           }
         </div>
