@@ -5,7 +5,7 @@ import ProductItem from './Produkter/ProductItem'
 function Product(props) {
   return (
     <div className='text-center'>
-        <h1 className='container display-6 bg-dark text-white py-3 mt-2' data-bs-toggle="collapse" data-bs-target={"#" + props.id}>{props.id.toUpperCase()}</h1>
+        <h1 className='container display-6 bg-dark text-white py-3 mt-2' role="button" data-bs-toggle="collapse" data-bs-target={"#" + props.id}>{props.id.toUpperCase()}</h1>
         <div className='container collapse row' id={props.id}>
         {
             props.product.map((x, i) => {
