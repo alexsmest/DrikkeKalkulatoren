@@ -31,30 +31,14 @@ function App() {
           <Produkter />
           <Info />
         </Route>
-        <Route exact path="/Cider">
-          <Cider />
-        </Route>
-        <Route exact path="/Øl">
-          <Øl />
-        </Route>
-        <Route exact path="/Vin">
-          <Vin />
-        </Route>
-        <Route exact path="/Sterkvin">
-          <Sterkvin />
-        </Route>
-        <Route exact path="/Brennevin">
-          <Brennevin />
-        </Route>
-        <Route exact path="/Promillekalkulator">
-          <Promillekalkulator />
-        </Route>
-        <Route exact path="/Priskalkulator">
-          <Priskalkulator />
-        </Route>
-        <Route exact path="/Kontakt">
-          <Kontakt />
-        </Route>
+        <Route exact path="/Cider" component={Cider} />
+        <Route exact path="/Øl" component={Øl} />
+        <Route exact path="/Vin" component={Vin} />
+        <Route exact path="/Brennevin" component={Brennevin} />
+        <Route exact path="/Sterkvin" component={Sterkvin} />
+        <Route exact path="/Promillekalkulator" component={Promillekalkulator} />
+        <Route exact path="/Priskalkulator" component={Priskalkulator} />
+        <Route exact path="/Kontakt" component={Kontakt} />
       </Switch>
     <Footer />
     </Router>
