@@ -2,12 +2,12 @@ import React from 'react'
 
 function ProductItem(props) {
   return (
-    <div className='col-sm-4 border text-center py-5'>
+    <div className='col-lg-4 border text-center py-5'>
         <img src={props.icon} alt="" height={200} />
         <p className='fw-bold'>{props.name}</p>
         <p>{props.type}</p>
         <button className='btn btn-warning me-2'>Legg til</button>
-        <button className='btn btn-warning' data-bs-toggle="collapse" data-bs-target={"#" + props.id}>Se detaljer</button>
+        <button className='btn btn-warning' data-bs-toggle="collapse" data-bs-target={"#" + props.uid}>Se detaljer</button>
         <div className='collapse' id={props.id}>
             <p className='mb-0 mt-2'>Pris: {props.price + "kr"}</p>
             <p className='mb-0'>Alkoholprosent: {props.percent + "%"}</p>
