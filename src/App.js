@@ -14,6 +14,7 @@ import Øl from "./components/Produkter/Øl"
 import Cider from "./components/Produkter/Cider"
 import Promillekalkulator from "./components/Promillekalkulator"
 import Priskalkulator from "./components/Priskalkulator"
+import Kontakt from "./components/Kontakt"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
@@ -47,6 +48,9 @@ function App() {
         </Route>
         <Route exact path="/Priskalkulator">
           <Priskalkulator />
+        </Route>
+        <Route exact path="/Kontakt">
+          <Kontakt />
         </Route>
       </Switch>
     <Footer />
