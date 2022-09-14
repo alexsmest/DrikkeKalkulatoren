@@ -2,10 +2,10 @@
     {
         "name": "Calsberg",
         "type": "Pilsner",
-        "icon": "https://bilder.ngdata.no/7311120236051/meny/medium.jpg",
-        "uid": "a",
-        "price": "23",
-        "percent": "4.7",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/calsberg/carlsbergpilsner.png?raw=true",
+        "uid": "carlsbergpilsner",
+        "price": "0",
+        "percent": "0",
         "size": "0.5"
     },
     {
