@@ -22,7 +22,7 @@ function Øl() {
         <Product product={Hansa} id="Hansa"/>
         <Product product={Ringnes} id="Ringnes"/>
         <Product product={Tuborg} id="Tuborg"/>
-        <Product product={AnnetØl} id="AnnetØl"/>
+        <Product product={AnnetØl} id="Annet"/>
       </div>
     </>
   )
