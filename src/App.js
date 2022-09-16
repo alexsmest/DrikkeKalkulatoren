@@ -1,3 +1,5 @@
+import React from "react"
+
 import "bootstrap/dist/css/bootstrap.css"
 import "./style.css"
 import "bootstrap/dist/js/bootstrap"
@@ -20,7 +22,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 
 function App() {
   return (
-    <Router forceRefresh={true}>
+    <Router>
       <Navbar />
       <Switch>
         <Route exact path ="/">
