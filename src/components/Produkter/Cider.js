@@ -13,7 +13,6 @@ function Cider() {
   return (
     <>
       <ProdukterNav />
-      
       <div className='container mt-5'>
         <ProductHeader product="cider" />
         <Product product={Grevens} id="grevens" />
