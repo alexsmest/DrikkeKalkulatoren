@@ -1,16 +1,18 @@
 import React from 'react'
 
 import ProdukterNav from '../ProdukterNav'
+import Product from '../Product'
+import ProductHeader from '../ProductHeader'
+
+import Rødvin1 from "../../data/Vin/Rødvin1.json"
 
 function Vin() {
   return (
     <>
       <ProdukterNav />
       <div className='container mt-5'>
-        <div className='text-center'>
-          <h1 className='display-4'>Utvalg av vin</h1>
-          <p>Sortert i alfabetisk rekkefølge</p>
-        </div>
+        <ProductHeader product="Vin" />
+        <Product product={Rødvin1} id="rødvin"/>
       </div>
     </>
   )
