@@ -7,5 +7,14 @@
         "price": "25",
         "percent": "4.7",
         "size": "0.5"
+    },
+    {
+        "name": "Peroni",
+        "type": "Øl",
+        "icon": "https://o.remove.bg/downloads/cced2709-a4d6-44c9-b54f-f5167cd2129e/large__1_-removebg-preview.png",
+        "uid": "peroniøl",
+        "price": "39",
+        "percent": "4.7",
+        "size": "0.33"
     }
 ]
