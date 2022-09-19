@@ -14,13 +14,11 @@ import Sterkvin from "./components/Produkter/Sterkvin"
 import Vin from "./components/Produkter/Vin"
 import Øl from "./components/Produkter/Øl"
 import Cider from "./components/Produkter/Cider"
-import Promillekalkulator from "./components/Promillekalkulator"
-import Priskalkulator from "./components/Priskalkulator"
+import Kalkulator from "./components/Kalkulator"
 import Kontakt from "./components/Kontakt"
 import Handlekurv from "./components/Handlekurv"
 
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
-import { useState } from "react"
 
 function App() {
   return (
@@ -40,8 +38,7 @@ function App() {
         <Route exact path="/Vin" component={Vin} />
         <Route exact path="/Brennevin" component={Brennevin} />
         <Route exact path="/Sterkvin" component={Sterkvin} />
-        <Route exact path="/Promillekalkulator" component={Promillekalkulator} />
-        <Route exact path="/Priskalkulator" component={Priskalkulator} />
+        <Route exact path="/Kalkulator" component={Kalkulator} />
         <Route exact path="/Kontakt" component={Kontakt} />
         <Route exact path="/Handlekurv" component={Handlekurv} />
       </Switch>

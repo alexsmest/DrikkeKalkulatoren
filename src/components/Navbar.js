@@ -27,8 +27,7 @@ function Navbar() {
                 </NavLink>
                 <ul className='navbar-nav ms-auto'>
                     {navButton("Hjem")}
-                    {navButton("Promillekalkulator")}
-                    {navButton("Priskalkulator")}
+                    {navButton("Kalkulator")}
                     {navButton("Kontakt")}
                     {navButton("Handlekurv")}
                 </ul>
