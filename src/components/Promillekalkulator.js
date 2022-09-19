@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from "react"
 
-function KalkulerPromille(alkoholGram, kroppsvekt, timer, kjonn) {
+function KalkulerPromille (alkoholGram, kroppsvekt, timer, kjonn) {
   var blodVektkalk = () => {
       if(kjonn === "mann") {
           return kroppsvekt * 0.7
@@ -9,8 +9,13 @@ function KalkulerPromille(alkoholGram, kroppsvekt, timer, kjonn) {
           return kroppsvekt * 0.6
       }
   }
+
   var PromilleEttrTid = (alkoholGram/blodVektkalk()) - (0.15 * timer)
-  return(Math.abs(PromilleEttrTid.toFixed(2)))
+  if (PromilleEttrTid < 0) {
+      PromilleEttrTid = 0;
+  }
+  
+  return PromilleEttrTid.toFixed(2);
 }
 
 function Promillekalkulator() {

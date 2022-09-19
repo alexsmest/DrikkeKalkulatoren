@@ -17,10 +17,13 @@ import Cider from "./components/Produkter/Cider"
 import Promillekalkulator from "./components/Promillekalkulator"
 import Priskalkulator from "./components/Priskalkulator"
 import Kontakt from "./components/Kontakt"
+import Handlekurv from "./components/Handlekurv"
 
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
+import { useState } from "react"
 
 function App() {
+  const [ basket, setBasket ] = useState([])
   return (
     <Router>
       <Navbar />
@@ -41,6 +44,9 @@ function App() {
         <Route exact path="/Promillekalkulator" component={Promillekalkulator} />
         <Route exact path="/Priskalkulator" component={Priskalkulator} />
         <Route exact path="/Kontakt" component={Kontakt} />
+        <Route exact path="/Handlekurv">
+          <Handlekurv items={basket} />
+        </Route>
       </Switch>
     <Footer />
     </Router>
