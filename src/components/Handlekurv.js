@@ -1,10 +1,8 @@
 import React from 'react'
 
-function Handlekurv(props) {
+function Handlekurv() {
   return (
-    <div className='container'>
-        <h1>{props.items}</h1>
-    </div>
+    <div>Handlekurv</div>
   )
 }
 

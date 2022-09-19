@@ -23,7 +23,6 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import { useState } from "react"
 
 function App() {
-  const [ basket, setBasket ] = useState([])
   return (
     <Router>
       <Navbar />
@@ -44,9 +43,7 @@ function App() {
         <Route exact path="/Promillekalkulator" component={Promillekalkulator} />
         <Route exact path="/Priskalkulator" component={Priskalkulator} />
         <Route exact path="/Kontakt" component={Kontakt} />
-        <Route exact path="/Handlekurv">
-          <Handlekurv items={basket} />
-        </Route>
+        <Route exact path="/Handlekurv" component={Handlekurv} />
       </Switch>
     <Footer />
     </Router>
