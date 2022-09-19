@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Rødvin",
+        "type": "Vin",
+        "icon": "https://grans.no/wp-content/uploads/2015/11/ag-bare_boks05_700x2000-Recovered-copy-175x500-002-175x500.png",
+        "uid": "rødvin",
+        "price": "25",
+        "percent": "4.7",
+        "size": "0.5"
+    }
+]
