@@ -3,9 +3,9 @@ import { useState } from "react"
 
 function KalkulerPromille(alkoholGram, kroppsvekt, timer, kjonn) {
   var blodVektkalk = () => {
-      if(kjonn == "mann") {
+      if(kjonn === "mann") {
           return kroppsvekt * 0.7
-      } else if (kjonn == "kvinne") {
+      } else if (kjonn === "kvinne") {
           return kroppsvekt * 0.6
       }
   }
