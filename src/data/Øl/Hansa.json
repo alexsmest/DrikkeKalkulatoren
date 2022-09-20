@@ -2,8 +2,53 @@
     {
         "name": "Hansa",
         "type": "Pilsner",
-        "icon": "",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_pilsner-removebg-preview.png?raw=true",
         "uid": "hansapilsner",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "Pilsner Lite",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_lite-removebg-preview.png?raw=true",
+        "uid": "hansapilsnerlite",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "IPA",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_ipa-removebg-preview.png?raw=true",
+        "uid": "hansaipa",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "Fatøl",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_fat%C3%B8l-removebg-preview.png?raw=true",
+        "uid": "hansafatøl",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "Premium",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_premium-removebg-preview.png?raw=true",
+        "uid": "hansapremium",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "Sterkøl",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_serk%C3%B8l-removebg-preview.png?raw=true",
+        "uid": "hansasterkøl",
         "price": "0",
         "percent": "0",
         "size": "0.5"
