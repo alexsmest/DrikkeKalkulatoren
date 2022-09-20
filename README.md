@@ -1,4 +1,5 @@
 DrikkeKalkulatoren, laget av Ole, Alexander, Frederik og Erik.
+hei gutter - freddern :)(si ifra om dere ser dette)
 
 !["Logo"](/src/images/logo/logo.png)
 
