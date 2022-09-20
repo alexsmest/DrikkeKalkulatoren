@@ -78,7 +78,7 @@ function Kalkulator() {
   const [kjønn, setKjønn] = useState(null);
 
   return (
-    <div className='pt-4 pb-5 my-5 border-bottom'>
+    <div className='pt-4 pb-5 my-5'>
       <div className='container text-center'>
         <h1 className='display-4'>Kalkuler promille og pris</h1>
         <p>Gram alkohol utregnes fra varene du har valgt, promille og pris beregnes automatisk</p>
