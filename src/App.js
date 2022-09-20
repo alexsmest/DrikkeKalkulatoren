@@ -16,16 +16,8 @@ import Øl from "./components/Produkter/Øl"
 import Cider from "./components/Produkter/Cider"
 import Kalkulator from "./components/Kalkulator"
 import Kontakt from "./components/Kontakt"
-import Handlekurv from "./components/Handlekurv"
 
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
-import { useState } from "react"
-
-function GetHandlekurv(){
-  return(
-    <h1>Hei</h1>
-  )
-}
 
 function App() {
   return (
@@ -47,7 +39,6 @@ function App() {
         <Route exact path="/Sterkvin" component={Sterkvin} />
         <Route exact path="/Kalkulator" component={Kalkulator} />
         <Route exact path="/Kontakt" component={Kontakt} />
-        <Route exact path="/Handlekurv" component={Handlekurv} />
       </Switch>
     <Footer />
     </Router>
