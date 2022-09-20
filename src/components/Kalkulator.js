@@ -90,30 +90,35 @@ function Kalkulator() {
             <li className='list-group-item'>Spritflaske x 1</li>
           </ul>
         </div>
-        <p>Gram alkohol: {alkoholGram}g</p>
-        <Link className='btn btn-warning' to="/Cider">Finn flere produkter</Link>
-        <h1 className='display-6 mt-5'>Informasjon</h1>
-        <p className='mt-5'>Hvor mye veier du?</p>
-        <input type="range" className='form-range w-75' min={20} max={140} defaultValue={80} step={1} id={kroppsvekt} onChange={value => setKroppsvekt(value.target.value)}/>
-        <p>{kroppsvekt}kg</p>
-        <p className='mt-5'>Hvor gammel er du?</p>
-        <input type="range" className='form-range w-75' min={14} max={100} defaultValue={18} step={1} id={alder} onChange={value => setAlder(value.target.value)}/>
-        <p className='mb-0'>{alder} år</p>
-        {alder<18 && <p>Vær forsiktig ved drikking <span className='text-danger'>under 18 år</span></p>}
-        <p className='mt-5'>Hvor mange timer skal du drikke?</p>
-        <input type="range" className='form-range w-75' min={1} max={24} defaultValue={1} step={0.5} id={timer} onChange={value => setTimer(value.target.value)}/>
-        <p>{timer} time(r)</p>
-        <p>Er du mann eller kvinne?</p>
-        <div className='form-check form-check-inline'>
-          <input className='form-check-input' type="radio" id={kjønn} name='kjønn' value="mann" onChange={value => setKjønn(value.target.value)} />
-          <label htmlFor={kjønn}>Mann</label>
+        <button className='btn btn-warning mt-4' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Oppgi alder, vekt og antall timer</button>
+        <div className='modal fade' id='informasjonsModal'>
+          <div className='modal-dialog'>
+            <div className='modal-content'>
+              <div className='modal-header'>
+                <h1 className='display-6'>Informasjon</h1>
+              </div>
+              <div className='modal-body'>
+                <p>Jeg er {alder<18 && <span className='text-danger fw-bold'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel{alder<18 && <span>, drikk med hensyn</span>}</p>
+                <input type="range" className='form-range w-75 mb-3' min={14} max={100} defaultValue={18} step={1} id={alder} onChange={value => setAlder(value.target.value)}/>
+                <p>Jeg veier <span className='text-warning fw-bold'>{kroppsvekt}kg</span></p>
+                <input type="range" className='form-range w-75 mb-3' min={20} max={140} defaultValue={80} step={1} id={kroppsvekt} onChange={value => setKroppsvekt(value.target.value)}/>
+                <p>Jeg skal drikke i <span className='text-warning fw-bold'>{timer}</span> timer</p>
+                <input type="range" className='form-range w-75 mb-3' min={1} max={24} defaultValue={1} step={0.5} id={timer} onChange={value => setTimer(value.target.value)}/>
+                <p className='mb-1'>Jeg er en</p>
+                <div className='form-check form-check-inline'>
+                  <input className='form-check-input' type="radio" id={kjønn} name='kjønn' value="mann" onChange={value => setKjønn(value.target.value)} />
+                  <label htmlFor={kjønn}>Mann</label>
+                </div>
+                <div className='form-check form-check-inline'>
+                  <input className='form-check-input' type="radio" id={kjønn} name='kjønn' value="kvinne" onChange={value => setKjønn(value.target.value)} />
+                  <label htmlFor={kjønn}>Kvinne</label>
+                </div>
+                <br />
+                {kjønn != null && <button className='btn btn-warning mt-4 mb-2 w-100' data-bs-toggle="modal" data-bs-target="#kalkulertPromille">Kalkuler promille</button>}
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='form-check form-check-inline'>
-          <input className='form-check-input' type="radio" id={kjønn} name='kjønn' value="kvinne" onChange={value => setKjønn(value.target.value)} />
-          <label htmlFor={kjønn}>Kvinne</label>
-        </div>
-        <br />
-        {kjønn != null && <button className='btn btn-warning mt-5' data-bs-toggle="modal" data-bs-target="#kalkulertPromille">Kalkuler promille</button>}
       </div>
       <div className='modal fade' id='kalkulertPromille'>
         <div className='modal-dialog'>
@@ -123,7 +128,10 @@ function Kalkulator() {
               <button className='btn-close' data-bs-dismiss="modal"></button>
             </div>
             <div className='modal-body'>
-              <p>Du veier {kroppsvekt}kg, er {alder} år gammel, er en {kjønn}, og drikker {alkoholGram} gram alkohol på {timer} time(r).</p>
+              <p>Du er en {alder<18 && <span className='text-danger'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel <span className='text-warning fw-bold'>{kjønn}</span> 
+              som veier <span className='text-warning fw-bold'>{kroppsvekt}kg</span> og 
+              skal drikke <span className='text-warning fw-bold'>{alkoholGram}</span> gram alkohol 
+              på <span className='text-warning fw-bold'>{timer}</span> timer.</p>
               <p>Din promille vil bli <span className='text-warning fw-bold'>{KalkulerPromille(alkoholGram, kroppsvekt, timer, kjønn)}</span> på slutten av kvelden. Dine tilstander kan være:</p>
               {Tilstand(KalkulerPromille(alkoholGram, kroppsvekt, timer, kjønn))}
               <p className='mt-4'>Det du drikker vil koste deg <span className='text-warning fw-bold'>0kr.</span></p>

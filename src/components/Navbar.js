@@ -29,7 +29,6 @@ function Navbar() {
                     {navButton("Hjem")}
                     {navButton("Kalkulator")}
                     {navButton("Kontakt")}
-                    {navButton("Handlekurv")}
                 </ul>
             </div>
         </div>

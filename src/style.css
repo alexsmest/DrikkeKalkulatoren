@@ -17,6 +17,10 @@ body, html{
     scrollbar-width: 0;
 }
 
-.nav-link-2:      active {
-    color: yellow;
+/*
+Custom bootstrap klasser
+*/
+
+.btn{
+    border-radius: 0px;
 }
