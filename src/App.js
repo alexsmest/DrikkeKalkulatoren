@@ -19,6 +19,13 @@ import Kontakt from "./components/Kontakt"
 import Handlekurv from "./components/Handlekurv"
 
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
+import { useState } from "react"
+
+function GetHandlekurv(){
+  return(
+    <h1>Hei</h1>
+  )
+}
 
 function App() {
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Handlekurv() {
   return (
-    <div>Handlekurv</div>
+    <h1>w</h1>
   )
 }
 

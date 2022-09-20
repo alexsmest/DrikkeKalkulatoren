@@ -82,8 +82,8 @@ function Kalkulator() {
     <div className='pt-4 pb-5 my-5'>
       <div className='container text-center'>
         <h1 className='display-4'>Kalkuler promille og pris</h1>
-        <p>Gram alkohol utregnes fra varene du har valgt, promille og pris beregnes automatisk</p>
-        <div className='container w-50 pt-3 pb-2 text-start'>
+        <p>Gram alkohol utregnes fra varene du har valgt <br /> Promille og pris beregnes automatisk basert på produktene du har valg og informasjon om deg</p>
+        <div className='container w-75 pt-3 pb-2 text-start'>
           <ul className='list-group'>
             <li className='list-group-item'>Cider x 3</li>
             <li className='list-group-item'>Øl x 5</li>
@@ -93,15 +93,15 @@ function Kalkulator() {
         <p>Gram alkohol: {alkoholGram}g</p>
         <Link className='btn btn-warning' to="/Cider">Finn flere produkter</Link>
         <h1 className='display-6 mt-5'>Informasjon</h1>
-        <p>Hvor mye veier du?</p>
-        <input type="range" className='form-range w-50' min={20} max={140} defaultValue={80} step={1} id={kroppsvekt} onChange={value => setKroppsvekt(value.target.value)}/>
+        <p className='mt-5'>Hvor mye veier du?</p>
+        <input type="range" className='form-range w-75' min={20} max={140} defaultValue={80} step={1} id={kroppsvekt} onChange={value => setKroppsvekt(value.target.value)}/>
         <p>{kroppsvekt}kg</p>
-        <p>Hvor gammel er du?</p>
-        <input type="range" className='form-range w-50' min={14} max={100} defaultValue={18} step={1} id={alder} onChange={value => setAlder(value.target.value)}/>
-        <p>{alder} år</p>
-        {alder<18 && <p>Vær forsiktig ved drikking under 18 år</p>}
-        <p>Hvor mange timer skal du drikke?</p>
-        <input type="range" className='form-range w-50' min={1} max={24} defaultValue={1} step={0.5} id={timer} onChange={value => setTimer(value.target.value)}/>
+        <p className='mt-5'>Hvor gammel er du?</p>
+        <input type="range" className='form-range w-75' min={14} max={100} defaultValue={18} step={1} id={alder} onChange={value => setAlder(value.target.value)}/>
+        <p className='mb-0'>{alder} år</p>
+        {alder<18 && <p>Vær forsiktig ved drikking <span className='text-danger'>under 18 år</span></p>}
+        <p className='mt-5'>Hvor mange timer skal du drikke?</p>
+        <input type="range" className='form-range w-75' min={1} max={24} defaultValue={1} step={0.5} id={timer} onChange={value => setTimer(value.target.value)}/>
         <p>{timer} time(r)</p>
         <p>Er du mann eller kvinne?</p>
         <div className='form-check form-check-inline'>
