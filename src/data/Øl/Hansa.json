@@ -2,8 +2,26 @@
     {
         "name": "Hansa",
         "type": "Pilsner",
-        "icon": "",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_pilsner-removebg-preview.png?raw=true",
         "uid": "hansapilsner",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "Pilsner Lite",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_lite-removebg-preview.png?raw=true",
+        "uid": "hansapilsnerlite",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Hansa",
+        "type": "IPA",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/hansa/hansa_ipa-removebg-preview.png?raw=true",
+        "uid": "hansaipa",
         "price": "0",
         "percent": "0",
         "size": "0.5"
