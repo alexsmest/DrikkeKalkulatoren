@@ -2,8 +2,7 @@
     {
         "name": "BareØl",
         "type": "Øl",
-        "icon": "https://grans.no/wp-content/uploads/2015/11/ag-bare_boks05_700x2000-Recovered-copy-175x500-002-175x500.png",
-        "uid": "bareøløl",
+        "icon": "",
         "price": "25",
         "percent": "4.7",
         "size": "0.5"
@@ -11,7 +10,7 @@
     {
         "name": "Peroni",
         "type": "Øl",
-        "icon": "https://o.remove.bg/downloads/cced2709-a4d6-44c9-b54f-f5167cd2129e/large__1_-removebg-preview.png",
+        "icon": "",
         "uid": "peroniøl",
         "price": "39",
         "percent": "4.7",
