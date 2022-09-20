@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 function KalkulerPromille (alkoholGram, kroppsvekt, timer, kjonn) {
   var blodVektkalk = () => {
@@ -71,7 +72,7 @@ var Tilstand = (promille) => {
 }
 
 function Kalkulator() {
-  const [alkoholGram, setAlkoholGram] = useState(150);
+  const [alkoholGram, /*setAlkoholGram*/] = useState(150);
   const [kroppsvekt, setKroppsvekt] = useState(80);
   const [alder, setAlder] = useState(18);
   const [timer, setTimer] = useState(1);
@@ -90,6 +91,7 @@ function Kalkulator() {
           </ul>
         </div>
         <p>Gram alkohol: {alkoholGram}g</p>
+        <Link className='btn btn-warning' to="/Cider">Finn flere produkter</Link>
         <h1 className='display-6 mt-5'>Informasjon</h1>
         <p>Hvor mye veier du?</p>
         <input type="range" className='form-range w-50' min={20} max={140} defaultValue={80} step={1} id={kroppsvekt} onChange={value => setKroppsvekt(value.target.value)}/>
