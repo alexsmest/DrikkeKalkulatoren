@@ -7,5 +7,23 @@
         "price": "0",
         "percent": "0",
         "size": "0.33"
+    },
+    {
+        "name": "BreezerLime",
+        "type": "Lime",
+        "icon": "",
+        "uid": "breezerlime",
+        "price": "0",
+        "percent": "0",
+        "size": "0.33"
+    },
+    {
+        "name": "BreezerStrawberry",
+        "type": "Strawberry",
+        "icon": "",
+        "uid": "breezerstrawberry",
+        "price": "0",
+        "percent": "0",
+        "size": "0.33"
     }
 ]
