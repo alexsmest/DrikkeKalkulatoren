@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from "react"
-import { Link } from "react-router-dom"
 
 function KalkulerPromille (alkoholGram, kroppsvekt, timer, kjonn) {
   var blodVektkalk = () => {
@@ -96,6 +95,7 @@ function Kalkulator() {
             <div className='modal-content'>
               <div className='modal-header'>
                 <h1 className='display-6'>Informasjon</h1>
+                <span className='btn-close'></span>
               </div>
               <div className='modal-body'>
                 <p>Jeg er {alder<18 && <span className='text-danger fw-bold'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel{alder<18 && <span>, drikk med hensyn</span>}</p>
