@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from "react"
 
+import Handlekurv from './Handlekurv'
+
 function KalkulerPromille (alkoholGram, kroppsvekt, timer, kjonn) {
   var blodVektkalk = () => {
       if(kjonn === "mann") {
@@ -71,11 +73,12 @@ var Tilstand = (promille) => {
 }
 
 function Kalkulator() {
-  const [alkoholGram, /*setAlkoholGram*/] = useState(150);
   const [kroppsvekt, setKroppsvekt] = useState(80);
   const [alder, setAlder] = useState(18);
   const [timer, setTimer] = useState(1);
   const [kjønn, setKjønn] = useState(null);
+  var alkoholGram = 0;
+  var pris = 0;
 
   return (
     <div className='pt-4 pb-5 my-5'>
@@ -84,12 +87,21 @@ function Kalkulator() {
         <p>Gram alkohol utregnes fra varene du har valgt <br /> Promille og pris beregnes automatisk basert på produktene du har valg og informasjon om deg</p>
         <div className='container w-50 pt-3 pb-2 text-start'>
           <ul className='list-group'>
-            <li className='list-group-item'>Cider x 3</li>
-            <li className='list-group-item'>Øl x 5</li>
-            <li className='list-group-item'>Spritflaske x 1</li>
+            {Handlekurv.length === 0 && <li className='list-group-item'>Ingen produkter i handlekurven</li>}
+            {
+              Handlekurv.map((x, i) => {
+                {alkoholGram += Handlekurv[i][4]}
+                {pris += parseInt(Handlekurv[i][1])}
+                return(
+                  <>
+                    <li className='list-group-item'>{Handlekurv[i][0]}, {Handlekurv[i][1]}kr, {Handlekurv[i][2]}%, {Handlekurv[i][3]} liter, {Handlekurv[i][4]} gram alkohol</li>
+                  </>
+                )
+              })
+            }
           </ul>
         </div>
-        <button className='btn btn-warning mt-4' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Oppgi alder, vekt og antall timer</button>
+        {Handlekurv.length > 0 && <button className='btn btn-warning mt-4' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Oppgi alder, vekt og antall timer</button>}
         <div className='modal fade' id='informasjonsModal'>
           <div className='modal-dialog modal-dialog-centered'>
             <div className='modal-content'>
@@ -102,7 +114,7 @@ function Kalkulator() {
                 <input type="range" className='form-range w-75 mb-3' min={14} max={100} defaultValue={18} step={1} id={alder} onChange={value => setAlder(value.target.value)}/>
                 <p>Jeg veier <span className='text-warning fw-bold'>{kroppsvekt}kg</span></p>
                 <input type="range" className='form-range w-75 mb-3' min={20} max={140} defaultValue={80} step={1} id={kroppsvekt} onChange={value => setKroppsvekt(value.target.value)}/>
-                <p>Jeg skal drikke i <span className='text-warning fw-bold'>{timer}</span> timer</p>
+                <p>Jeg skal drikke i <span className='text-warning fw-bold'>{timer}</span> time(r)</p>
                 <input type="range" className='form-range w-75 mb-3' min={1} max={24} defaultValue={1} step={0.5} id={timer} onChange={value => setTimer(value.target.value)}/>
                 <p className='mb-1'>Jeg er en</p>
                 <div className='form-check form-check-inline'>
@@ -131,10 +143,10 @@ function Kalkulator() {
               <p>Du er en {alder<18 && <span className='text-danger'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel <span className='text-warning fw-bold'>{kjønn} </span> 
               som veier <span className='text-warning fw-bold'>{kroppsvekt}kg</span> og 
               skal drikke <span className='text-warning fw-bold'>{alkoholGram}</span> gram alkohol 
-              på <span className='text-warning fw-bold'>{timer}</span> timer.</p>
+              på <span className='text-warning fw-bold'>{timer}</span> time(r).</p>
               <p>Din promille vil bli <span className='text-warning fw-bold'>{KalkulerPromille(alkoholGram, kroppsvekt, timer, kjønn)}</span> på slutten av kvelden. Dine tilstander kan være:</p>
               {Tilstand(KalkulerPromille(alkoholGram, kroppsvekt, timer, kjønn))}
-              <p className='mt-4'>Det du drikker vil koste deg <span className='text-warning fw-bold'>0kr.</span></p>
+              <p className='mt-4'>Det du drikker vil koste deg <span className='text-warning fw-bold'>{pris}kr</span></p>
               {alder<18 && <p>Du er <span className='text-danger fw-bold'>under 18 år</span>. Drikk med hensyn.</p>}
             </div>
           </div>

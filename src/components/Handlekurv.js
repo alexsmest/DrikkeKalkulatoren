@@ -1,3 +1,3 @@
-const Handlekurv = ["awd", "dawd", "iuawd"]
+const Handlekurv = []
 
 export default Handlekurv;

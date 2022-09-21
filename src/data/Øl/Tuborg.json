@@ -4,7 +4,7 @@
         "type": "Pilsner",
         "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/tuborg/tuborg_05l-removebg-preview.png?raw=true",
         "uid": "tuborgpilsner",
-        "price": "0",
+        "price": "25",
         "percent": "4.7",
         "size": "0.5"
     },

@@ -10,7 +10,7 @@ function Product(props) {
         {
             props.product.map((x, i) => {
             return (
-                <ProductItem name={props.product[i].name} type={props.product[i].type} icon={props.product[i].icon} price={props.product[i].price} percent={props.product[i].percent} size={props.product[i].size} />
+                <ProductItem name={props.product[i].name} type={props.product[i].type} icon={props.product[i].icon} price={props.product[i].price} percent={props.product[i].percent} size={props.product[i].size} uid={props.product[i].uid} />
             )
             })
         }
