@@ -7,5 +7,32 @@
         "price": "0",
         "percent": "0",
         "size": "0.5"
+    },
+    {
+        "name": "Crush",
+        "type": "Pærecider",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/crush3.png?raw=true",
+        "uid": "crushpærecider",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+     {
+        "name": "Crush",
+        "type": "Pærecider",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/crush2.png?raw=true",
+        "uid": "crushpærecider",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Crush",
+        "type": "Pærecider",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/crush1.png?raw=true",
+        "uid": "crushpærecider",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
     }
 ]
