@@ -17,12 +17,15 @@ import Cider from "./components/Produkter/Cider"
 import Kalkulator from "./components/Kalkulator"
 import Kontakt from "./components/Kontakt"
 
+import Handlekurv from "./components/Handlekurv"
+
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom"
 
 function App() {
   return (
     <Router>
       <Navbar />
+      {Handlekurv}
       <Switch>
         <Route exact path ="/">
           <Redirect to="/Hjem" />
