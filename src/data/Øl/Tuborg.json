@@ -1,11 +1,29 @@
 [
     {
         "name": "Tuborg",
-        "type": "Øl",
-        "icon": "",
+        "type": "Pilsner",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/tuborg/tuborg_05l-removebg-preview.png?raw=true",
         "uid": "tuborgpilsner",
         "price": "0",
-        "percent": "0",
+        "percent": "4.7",
         "size": "0.5"
+    },
+    {
+        "name": "Tuborg",
+        "type": "Pilsner (Mini)",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/tuborg/tuborg_033-removebg-preview.png?raw=true",
+        "uid": "tuborgpilsnermini",
+        "price": "0",
+        "percent": "4.7",
+        "size": "0.33"
+    },
+    {
+        "name": "Tuborg",
+        "type": "Pilsner (Pint)",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/tuborg/tuborg_one_pit_0568l-removebg-preview.png?raw=true",
+        "uid": "tuborgpilsnerpint",
+        "price": "0",
+        "percent": "4.7",
+        "size": "0.568"
     }
 ]
