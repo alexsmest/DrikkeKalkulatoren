@@ -2,7 +2,7 @@
     {
         "name": "BreezerOrange",
         "type": "Orange",
-        "icon": "",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/breezerorange-removebg-preview.png?raw=true",
         "uid": "breezerorange",
         "price": "0",
         "percent": "0",
@@ -11,7 +11,7 @@
     {
         "name": "BreezerLime",
         "type": "Lime",
-        "icon": "",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/breezerlime-removebg-preview.png?raw=true",
         "uid": "breezerlime",
         "price": "0",
         "percent": "0",
@@ -20,7 +20,7 @@
     {
         "name": "BreezerStrawberry",
         "type": "Strawberry",
-        "icon": "",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/breezerstrawberry-removebg-preview.png?raw=true",
         "uid": "breezerstrawberry",
         "price": "0",
         "percent": "0",

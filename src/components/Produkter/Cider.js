@@ -10,6 +10,7 @@ import Barecider from "../../data/Cider/Barecider.json"
 import Sommersby from "../../data/Cider/Sommersby.json"
 import SmirnoffIce from "../../data/Cider/SmirnoffIce.json"
 import Breezer from "../../data/Cider/Breezer.json"
+import Annet from "../../data/Cider/AnnetCider.json"
 
 function Cider() {
   return (
@@ -23,6 +24,7 @@ function Cider() {
         <Product product={Sommersby} id="Sommersby" />
         <Product product={Breezer} id="Breezer" />
         <Product product={SmirnoffIce} id="Smirnoff" />
+        <Product product={Annet} id="Annet" />
       </div>
     </>
   )
