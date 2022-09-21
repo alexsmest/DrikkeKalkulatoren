@@ -95,7 +95,7 @@ function Kalkulator() {
             <div className='modal-content'>
               <div className='modal-header'>
                 <h1 className='display-6'>Informasjon</h1>
-                <span className='btn-close'></span>
+                <span className='btn-close' data-bs-dismiss="modal"></span>
               </div>
               <div className='modal-body'>
                 <p>Jeg er {alder<18 && <span className='text-danger fw-bold'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel{alder<18 && <span>, drikk med hensyn</span>}</p>
