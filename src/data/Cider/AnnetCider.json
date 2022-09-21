@@ -1,0 +1,20 @@
+[
+    {
+        "name": "annet",
+        "type": "annet",
+        "icon": "",
+        "uid": "annet2",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Smirnoff Ice",
+        "type": "Original",
+        "icon": "",
+        "uid": "smirnoffice1",
+        "price": "0",
+        "percent": "0",
+        "size": "0.33"
+    }
+]

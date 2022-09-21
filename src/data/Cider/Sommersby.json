@@ -1,11 +1,29 @@
 [
     {
         "name": "Sommersby",
+        "type": "Pære",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/large-removebg-preview.png?raw=true",
+        "uid": "sommersbypære",
+        "price": "0",
+        "percent": "0",
+        "size": "0.5"
+    },
+    {
+        "name": "Sommersby",
         "type": "Eple",
-        "icon": "",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/medium-removebg-preview.png?raw=true",
         "uid": "sommersbyeple",
         "price": "0",
         "percent": "0",
         "size": "0.5"
+    },
+    {
+        "name": "Sommersby",
+        "type": "Pære",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/cider/Breezer/sommersby0.33pear.png?raw=true",
+        "uid": "sommersbypære1",
+        "price": "0",
+        "percent": "0",
+        "size": "0.33"
     }
 ]

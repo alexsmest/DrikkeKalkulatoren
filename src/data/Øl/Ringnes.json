@@ -1,11 +1,29 @@
 [
     {
         "name": "Rignes",
-        "type": "Øl",
-        "icon": "",
-        "uid": "rignesøl",
+        "type": "Pilsner",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/ringnes/ringnes_05l-removebg-preview.png?raw=true",
+        "uid": "rignespilsner",
         "price": "0",
-        "percent": "0",
+        "percent": "4.7",
         "size": "0.5"
+    },
+    {
+        "name": "Rignes",
+        "type": "Pilsner Small",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/ringnes/ringnes_033-removebg-preview.png?raw=true",
+        "uid": "rignespilsnersmall",
+        "price": "0",
+        "percent": "4.7",
+        "size": "0.33"
+    },
+    {
+        "name": "Rignes",
+        "type": "Exstra Gold",
+        "icon": "https://github.com/olemorten/DrikkeKalkulatoren/blob/main/src/images/Drikke%20varer%20bilder/%C3%B8l/ringnes/ringnes_exstra_gold_033l-removebg-preview.png?raw=true",
+        "uid": "rignesexstragold",
+        "price": "0",
+        "percent": "6.3",
+        "size": "0.33"
     }
 ]
