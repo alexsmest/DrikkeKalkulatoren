@@ -83,7 +83,7 @@ function Kalkulator() {
       <div className='container text-center'>
         <h1 className='display-4'>Kalkuler promille og pris</h1>
         <p>Gram alkohol utregnes fra varene du har valgt <br /> Promille og pris beregnes automatisk basert på produktene du har valg og informasjon om deg</p>
-        <div className='container w-75 pt-3 pb-2 text-start'>
+        <div className='container w-50 pt-3 pb-2 text-start'>
           <ul className='list-group'>
             <li className='list-group-item'>Cider x 3</li>
             <li className='list-group-item'>Øl x 5</li>
@@ -92,7 +92,7 @@ function Kalkulator() {
         </div>
         <button className='btn btn-warning mt-4' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Oppgi alder, vekt og antall timer</button>
         <div className='modal fade' id='informasjonsModal'>
-          <div className='modal-dialog'>
+          <div className='modal-dialog modal-dialog-centered'>
             <div className='modal-content'>
               <div className='modal-header'>
                 <h1 className='display-6'>Informasjon</h1>
@@ -121,14 +121,14 @@ function Kalkulator() {
         </div>
       </div>
       <div className='modal fade' id='kalkulertPromille'>
-        <div className='modal-dialog'>
+        <div className='modal-dialog modal-dialog-centered'>
           <div className='modal-content'>
             <div className='modal-header'>
               <h1 className='display-6'>Kalkulator</h1>
               <button className='btn-close' data-bs-dismiss="modal"></button>
             </div>
             <div className='modal-body'>
-              <p>Du er en {alder<18 && <span className='text-danger'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel <span className='text-warning fw-bold'>{kjønn}</span> 
+              <p>Du er en {alder<18 && <span className='text-danger'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel <span className='text-warning fw-bold'>{kjønn} </span> 
               som veier <span className='text-warning fw-bold'>{kroppsvekt}kg</span> og 
               skal drikke <span className='text-warning fw-bold'>{alkoholGram}</span> gram alkohol 
               på <span className='text-warning fw-bold'>{timer}</span> timer.</p>
