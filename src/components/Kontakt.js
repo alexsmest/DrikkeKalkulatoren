@@ -2,9 +2,8 @@ import React from 'react'
 
 function Kontakt() {
   return (
-    <div className='container mt-5'>
-      <h1 className='display-4 text-center'>Kontakt</h1>
-      <h1 className='display-6'>Mail: test@drikkekalk.no</h1>
+    <div>
+      
     </div>
   )
 }
