@@ -6,7 +6,6 @@ import ProductHeader from '../ProductHeader'
 
 import Grevens from "../../data/Cider/Grevens.json"
 import Crush from "../../data/Cider/Crush.json"
-import Barecider from "../../data/Cider/Barecider.json"
 import Sommersby from "../../data/Cider/Sommersby.json"
 import Breezer from "../../data/Cider/Breezer.json"
 import Annet from "../../data/Cider/AnnetCider.json"
@@ -19,7 +18,6 @@ function Cider() {
         <ProductHeader product="cider" />
         <Product product={Grevens} id="grevens" />
         <Product product={Crush} id="crush" />
-        <Product product={Barecider} id="Barecider" />
         <Product product={Sommersby} id="Sommersby" />
         <Product product={Breezer} id="Breezer" />
         <Product product={Annet} id="Annet" />
