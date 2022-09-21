@@ -8,6 +8,8 @@ import Grevens from "../../data/Cider/Grevens.json"
 import Crush from "../../data/Cider/Crush.json"
 import Barecider from "../../data/Cider/Barecider.json"
 import Sommersby from "../../data/Cider/Sommersby.json"
+import SmirnoffIce from "../../data/Cider/SmirnoffIce.json"
+import Breezer from "../../data/Cider/Breezer.json"
 
 function Cider() {
   return (
@@ -19,6 +21,8 @@ function Cider() {
         <Product product={Crush} id="crush" />
         <Product product={Barecider} id="Barecider" />
         <Product product={Sommersby} id="Sommersby" />
+        <Product product={Breezer} id="Breezer" />
+        <Product product={SmirnoffIce} id="Smirnoff" />
       </div>
     </>
   )
