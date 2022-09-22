@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from "react-router-dom"
+
 function Butikk(navn, sistOppdatert) {
     return(
         <li className='list-group-item d-flex justify-content-between align-items-center'>
@@ -43,6 +45,10 @@ function Info() {
                     ønsket drikkevare og dermed få handlekurven du trenger for å oppnå denne promillen.
                 </p>
             </div>
+        </div>
+        <div className='text-end'>
+            <p>Spent på hva som ligger bak?</p>
+            <Link to={"/Kalkulator"} className='btn btn-warning shadow'>Sjekk ut våres pris- og promillekalkulator</Link>
         </div>
         <hr className='my-5' />
         <div className='row'>

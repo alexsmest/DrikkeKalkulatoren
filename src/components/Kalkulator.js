@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 import Handlekurv from './Handlekurv'
 
@@ -87,7 +88,12 @@ function Kalkulator() {
         <p>Gram alkohol utregnes fra varene du har valgt <br /> Promille og pris beregnes automatisk basert på produktene du har valg og informasjon om deg</p>
         <div className='container w-50 pt-3 pb-2 text-start'>
           <ul className='list-group'>
-            {Handlekurv.length === 0 && <li className='list-group-item'>Ingen produkter i handlekurven</li>}
+            {Handlekurv.length === 0 && 
+              <>
+                <li className='list-group-item'>Ingen produkter i handlekurven</li>
+                <Link to={"/Cider"} className="btn btn-warning shadow rounded-bottom">Finn produkter</Link>
+              </>
+            }
             {
               Handlekurv.map((x, i) => {
                 {alkoholGram += Handlekurv[i][4]}
