@@ -18,18 +18,16 @@ function Produkt(name, icon) {
 function Produkter() {
   return (
     <>
-        <div className='container text-center mt-5 bg-warning text-dark py-3 shadow border' id='produkter'>
-            <h1 className='display-6'>Hva skal du drikke?</h1>
+        <div className='container text-center mt-5 text-dark' id='produkter'>
+            <h1 className='display-6 fw-bold text-warning'>Hva skal du drikke?</h1>
             <p>Velg først dine produkter, deretter kan du finne ut promillen du får av disse produktene og prisen for disse produktene.</p>
         </div>
-        <div className='container shadow'>
-            <div className='row text-center mt-5'>
-                {Produkt("Cider", CiderIcon)}
-                {Produkt("Øl", ØlIcon)}
-                {Produkt("Vin", VinIcon)}
-                {Produkt("Brennevin", BrennevinIcon)}
-                {Produkt("Sterkvin", SterkvinIcon)}
-            </div>
+        <div className='container mx-auto row text-center mt-5'>
+          {Produkt("Cider", CiderIcon)}
+          {Produkt("Øl", ØlIcon)}
+          {Produkt("Vin", VinIcon)}
+          {Produkt("Brennevin", BrennevinIcon)}
+          {Produkt("Sterkvin", SterkvinIcon)}
         </div>
     </>
   )

@@ -84,7 +84,7 @@ function Kalkulator() {
   return (
     <div className='pt-4 pb-5 my-5'>
       <div className='container text-center'>
-        <h1 className='display-4'>Kalkuler promille og pris</h1>
+        <h1 className='display-4 fw-bold text-warning'>Kalkuler promille og pris</h1>
         <p>Gram alkohol utregnes fra varene du har valgt <br /> Promille og pris beregnes automatisk basert på produktene du har valg og informasjon om deg</p>
         <div className='container w-50 pt-3 pb-2 text-start'>
           <ul className='list-group'>
