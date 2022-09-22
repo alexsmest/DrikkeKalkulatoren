@@ -71,3 +71,17 @@ Custom bootstrap klasser
   background-color: #ffc82c;
   border: #ffc72c21;
 }
+
+
+
+.nav-link:active{
+  color: #ffc82c;
+}
+
+.nav-link:hover{
+  color: #ffc72c81;
+}
+
+.active{
+  color: #ffc82c !important;
+}

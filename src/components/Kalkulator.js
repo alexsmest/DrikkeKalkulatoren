@@ -110,7 +110,7 @@ function Kalkulator() {
             }
           </ul>
           <div className='text-center mt-4'>
-            {Handlekurv.length > 0 && <button className='btn btn-warning shadow me-sm-3'>Tøm handlevogn</button>}
+            {Handlekurv.length > 0 && <button className='btn btn-warning shadow me-sm-3' onClick={() => window.location.reload()}>Tøm handlevogn</button>}
             {Handlekurv.length > 0 && <button className='btn btn-warning shadow' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Fortsett</button>}
           </div>
         </div>
