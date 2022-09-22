@@ -1,50 +1,65 @@
 import React from 'react'
 
+function Butikk(navn, sistOppdatert) {
+    return(
+        <li className='list-group-item d-flex justify-content-between align-items-center'>
+            {navn}
+            <span class="badge bg-warning badge-pill">Sist oppdatert: {sistOppdatert}</span>
+        </li>
+    )
+}
+
 function Info() {
   return (
-    <div className='text-center'>
-        <div className='container text-white bg-dark my-5 py-4 shadow'>
-            <h1 className='display-6'>Vårt Konsept</h1>
-            <p>
-                Er du lei av å søke/kalkulere prisen på forskjellige mengder drikkevarer?<br />
-                Hos oss kan du enkelt beregne hvor mye drikke du burde kjøpe og hva det vil 
-                koste hos de forskjellig levrandørene for å oppnå en hvis promille.
-            </p>
+    <div className='container my-5'>
+        <div className='row mt-5'>
+            <div className='col-6'>
+                <p className='fw-bold text-warning'>Vårt konsept</p>
+                <p>
+                    Er du lei av å søke/kalkulere prisen på forskjellige mengder drikkevarer?
+                    Hos oss kan du enkelt beregne hvor mye drikke du burde kjøpe og hva det vil
+                    koste hos de forskjellige levrandørene for å oppnå en viss promille.
+                </p>
+            </div>
         </div>
-        <div className='container'>
-            <div className='row g-5'>
-                <div className='col-sm'>
-                    <h1 className='display-6'>Promillekalkulator</h1>
-                    <hr />
-                    <p>
-                        Ved bruk av kalkulasjoner og promilletesting på flere tusen mennesker kan vi måle
-                        ut ca hvor mye i promille du vil få av en hvis mengde enheter. ved å oppgi litt informasjon om deg selv kan du på forhånd få svar på
-                        hvor mye du kan drikke før du kommer opp til en ønsket promille.
-                    </p>
-                </div>
-                <div className='col-sm'>
-                    <h1 className='display-6'>Priskalkulator</h1>
-                    <hr />
-                    <p>
-                        Ved å sammenligne priser fra forskjellige butikker kan du enkelt 
-                        skrive inn mengden drikke du ønsker og få svar på hvor mye det vil koste.
-                        Vi jobber nå med å automatisere handlekurven din slik at du kan velge ønsket promille og ønsket drikkevare
-                        og dermed få handlekurven du trenger for å oppnå denne promillen.
-                    </p>
-                </div>
-                <div className='col-sm'>
-                    <h1 className='display-6'>Butikker</h1>
-                    <hr />
-                    <p>
-                        Disse butikkene ser vi prisene på:<br />
-                        <li>Rema 1000</li>
-                        <li>Meny</li>
-                        <li>Joker</li>
-                        <li>Kiwi</li>
-                        <li>Coop Extra</li>
-                        <li>Vinmonopolet</li>
-                    </p>
-                </div>
+        <div className='row mt-5'>
+            <div className='col-6 ms-auto text-end'>
+                <p className='fw-bold text-warning'>Promillekalulator</p>
+                <p>
+                    Ved bruk av kalkulasjoner og promilletesting på flere tusen mennesker kan vi måle
+                    ut ca hvor mye i promille du vil få av en hvis mengde enheter. ved å oppgi litt 
+                    informasjon om deg selv kan du på forhånd få svar på
+                    hvor mye du kan drikke før du kommer opp til en ønsket promille.
+                </p>
+            </div>
+        </div>
+        <div className='row'>
+            <div className='col-6'>
+                <p className='fw-bold text-warning'>Priskalkulator</p>
+                <p>
+                    Ved å sammenligne priser fra forskjellige butikker kan du enkelt skrive inn 
+                    mengden drikke du ønsker og få svar på hvor mye det vil koste. 
+                    Vi jobber nå med å automatisere handlekurven din slik at du kan velge ønsket promille og 
+                    ønsket drikkevare og dermed få handlekurven du trenger for å oppnå denne promillen.
+                </p>
+            </div>
+        </div>
+        <hr className='my-5' />
+        <div className='row'>
+            <div className='col-6 mx-auto text-center'>
+                <p className='fw-bold text-warning'>Utvalg og pris av produkter basert på butikk</p>
+                <p>
+                    Vi har dyktige og effektive medarbeidere som sjekker og holder utvalget og prisen på produkter 
+                    oppdatert. Vi sjekker prisene på følgene butikker:
+                </p>
+                <ul className='list-group'>
+                    {Butikk("REMA 1000", "22/09/2022")}
+                    {Butikk("Meny", "22/09/2022")}
+                    {Butikk("Joker", "22/09/2022")}
+                    {Butikk("Kiwi", "22/09/2022")}
+                    {Butikk("Coop Extra", "22/09/2022")}
+                    {Butikk("Vinmonopolet", "22/09/2022")}
+                </ul>
             </div>
         </div>
     </div>

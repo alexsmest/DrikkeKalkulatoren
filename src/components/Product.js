@@ -5,8 +5,8 @@ import ProductItem from './Produkter/ProductItem'
 function Product(props) {
   return (
     <div className='text-center'>
-      <button className='btn btn-warning mt-2 w-75' data-bs-toggle="collapse" data-bs-target={"#" + props.id}>&darr; {props.id} &darr;</button>
-      <div className='collapse row w-75 mx-auto' id={props.id}>
+      <button className='btn btn-warning mt-4 w-75 shadow-sm' data-bs-toggle="collapse" data-bs-target={"#" + props.id}>&darr; {props.id} &darr;</button>
+      <div className='collapse row w-75 mx-auto shadow border' id={props.id}>
       {
           props.product.map((x, i) => {
           return (

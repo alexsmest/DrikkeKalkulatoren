@@ -10,9 +10,7 @@ import CiderIcon from "../images/display/cider.png"
 function Produkt(name, icon) {
     return (
       <Link to={"/" + name} className='col-lg border p-3 text-decoration-none'>
-        <img src={icon} alt="" className='img-responsive' height={200} />
-        <hr className='text-dark' />
-        <h1 className='display-6 text-dark'>{name}</h1>
+        <img src={icon} alt="" className='img-responsive my-5' height={200} />
       </Link>
     )
 }
@@ -20,11 +18,11 @@ function Produkt(name, icon) {
 function Produkter() {
   return (
     <>
-        <div className='container text-center mt-5 bg-dark text-white py-3 shadow' id='produkter'>
+        <div className='container text-center mt-5 bg-warning text-dark py-3 shadow border' id='produkter'>
             <h1 className='display-6'>Hva skal du drikke?</h1>
             <p>Velg først dine produkter, deretter kan du finne ut promillen du får av disse produktene og prisen for disse produktene.</p>
         </div>
-        <div className='container'>
+        <div className='container shadow'>
             <div className='row text-center mt-5'>
                 {Produkt("Cider", CiderIcon)}
                 {Produkt("Øl", ØlIcon)}
