@@ -86,28 +86,34 @@ function Kalkulator() {
       <div className='container text-center'>
         <h1 className='display-4 fw-bold text-warning'>Kalkuler promille og pris</h1>
         <p>Gram alkohol utregnes fra varene du har valgt <br /> Promille og pris beregnes automatisk basert på produktene du har valg og informasjon om deg</p>
-        <div className='container w-50 pt-3 pb-2 text-start'>
-          <ul className='list-group'>
+        <div className='container w-75 pt-3 pb-2 text-start'>
+          <ul className='list-group shadow'>
             {Handlekurv.length === 0 && 
               <>
                 <li className='list-group-item'>Ingen produkter i handlekurven</li>
-                <Link to={"/Cider"} className="btn btn-warning shadow rounded-bottom">Finn produkter</Link>
+                <Link to={"/Cider"} className="btn btn-warning rounded-bottom">Finn produkter</Link>
               </>
             }
             {
               Handlekurv.map((x, i) => {
-                {alkoholGram += Handlekurv[i][4]}
-                {pris += parseInt(Handlekurv[i][1])}
+                alkoholGram += Handlekurv[i][4]
+                pris += parseInt(Handlekurv[i][1])
                 return(
                   <>
-                    <li className='list-group-item'>{Handlekurv[i][0]}, {Handlekurv[i][1]}kr, {Handlekurv[i][2]}%, {Handlekurv[i][3]} liter, {Handlekurv[i][4]} gram alkohol</li>
+                    <li className='list-group-item d-flex justify-content-between align-items-center'>
+                      {Handlekurv[i][0]} x 1
+                      <span class="badge bg-warning text-dark fw-normal">{Handlekurv[i][1]}kr, {Handlekurv[i][2]}%, {Handlekurv[i][3]}l, {Handlekurv[i][4]}g</span>
+                    </li>
                   </>
                 )
               })
             }
           </ul>
+          <div className='text-center mt-4'>
+            {Handlekurv.length > 0 && <button className='btn btn-warning shadow me-sm-3'>Tøm handlevogn</button>}
+            {Handlekurv.length > 0 && <button className='btn btn-warning shadow' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Fortsett</button>}
+          </div>
         </div>
-        {Handlekurv.length > 0 && <button className='btn btn-warning mt-4' data-bs-toggle="modal" data-bs-target="#informasjonsModal">Oppgi alder, vekt og antall timer</button>}
         <div className='modal fade' id='informasjonsModal'>
           <div className='modal-dialog modal-dialog-centered'>
             <div className='modal-content'>
@@ -132,7 +138,7 @@ function Kalkulator() {
                   <label htmlFor={kjønn}>Kvinne</label>
                 </div>
                 <br />
-                {kjønn != null && <button className='btn btn-warning mt-4 mb-2 w-100' data-bs-toggle="modal" data-bs-target="#kalkulertPromille">Kalkuler promille</button>}
+                {kjønn != null && <button className='btn btn-warning mt-4 mb-2 w-100 shadow' data-bs-toggle="modal" data-bs-target="#kalkulertPromille">Kalkuler promille</button>}
               </div>
             </div>
           </div>
