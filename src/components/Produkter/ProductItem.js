@@ -13,7 +13,7 @@ function ProductItem(props) {
         <img src={props.icon} alt="" height={200} />
         <p className='fw-bold'>{props.name}</p>
         <p>{props.type}</p>
-        <button className='btn btn-warning position-relative' onClick={() => { Handlekurv.push(item) }}>Legg til
+        <button className='btn btn-warning position-relative' onClick={() => { Handlekurv.push(item); console.log(Handlekurv); }}>Legg til
           <span className='position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark'></span>
         </button>
         <br />
