@@ -58,7 +58,7 @@ function Info() {
                 oppdatert. Vi sjekker prisene på følgene butikker:
             </p>
             <ul className='list-group'>
-                {Butikk("REMA 1000", "22/09/2022")}
+                {Butikk("Rema 1000", "22/09/2022")}
                 {Butikk("Meny", "22/09/2022")}
                 {Butikk("Joker", "22/09/2022")}
                 {Butikk("Kiwi", "22/09/2022")}

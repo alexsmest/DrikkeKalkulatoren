@@ -24,3 +24,50 @@ Custom bootstrap klasser
 .btn{
     border-radius: 0px;
 }
+
+
+
+.form-range::-webkit-slider-thumb {
+  background: #ffc82c;
+}
+
+.form-range::-moz-range-thumb {
+  background: #ffc82c;
+}
+
+.form-range::-ms-thumb {
+  background: #ffc82c;
+}
+
+.form-range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #ffc72c41;
+}
+
+.form-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #ffc72c41;
+}
+
+.form-range::-webkit-slider-thumb:active {
+    background-color: #ffbb00;
+}
+
+
+
+.form-check-input:checked:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #ffc72c41;
+  border: #ffc82c;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #ffc72c41;
+  border: #ffbb00;
+}
+
+.form-check-input:active {
+  background-color: #ffc82c; 
+}
+
+.form-check-input:checked {
+  background-color: #ffc82c;
+  border: #ffc72c21;
+}
