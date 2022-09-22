@@ -152,13 +152,13 @@ function Kalkulator() {
               <button className='btn-close' data-bs-dismiss="modal"></button>
             </div>
             <div className='modal-body'>
-              <p>Du er en {alder<18 && <span className='text-danger'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel <span className='text-warning fw-bold'>{kjønn} </span> 
+              <p>Du er en {alder<18 && <span className='text-danger fw-bold'>{alder}</span>}{alder>=18 && <span className='text-warning fw-bold'>{alder}</span>} år gammel <span className='text-warning fw-bold'>{kjønn} </span> 
               som veier <span className='text-warning fw-bold'>{kroppsvekt}kg</span> og 
               skal drikke <span className='text-warning fw-bold'>{alkoholGram}</span> gram alkohol 
               på <span className='text-warning fw-bold'>{timer}</span> time(r).</p>
               <p>Din promille vil bli <span className='text-warning fw-bold'>{KalkulerPromille(alkoholGram, kroppsvekt, timer, kjønn)}</span> på slutten av kvelden. Dine tilstander kan være:</p>
               {Tilstand(KalkulerPromille(alkoholGram, kroppsvekt, timer, kjønn))}
-              <p className='mt-4'>Det du drikker vil koste deg <span className='text-warning fw-bold'>{pris}kr</span></p>
+              <p className='mt-4'>Det du drikker vil koste deg <span className='text-warning fw-bold'>{pris}kr</span>.</p>
               {alder<18 && <p>Du er <span className='text-danger fw-bold'>under 18 år</span>. Drikk med hensyn.</p>}
             </div>
           </div>
